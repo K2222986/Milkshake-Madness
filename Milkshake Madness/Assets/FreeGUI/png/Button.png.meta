@@ -144,7 +144,7 @@ TextureImporter:
         width: 421
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,7 +165,7 @@ TextureImporter:
         width: 421
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
         width: 421
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
         width: 421
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,6 +215,342 @@ TextureImporter:
       bones: []
       spriteID: 1edff2f309510d8469a413da5797cba7
       internalID: 1258737910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menuNormal
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33891f1f777b0b2419986d19f3371206
+      internalID: -1858753790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menuHover
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b429b3fd4622dc54e9bac2f341545a82
+      internalID: 1652976105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menuClick
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7c61e2cd9e2be41836a0da0ed7d114
+      internalID: -1746064193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menuLocked
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a9f155fae08c4782ebd3e850eba32
+      internalID: -276970792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musicNormal
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef413fa24ca390408c243e1afb081a6
+      internalID: -1356826016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musicHover
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c084b5a51443d4797677fd747263d5
+      internalID: -1956641941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musicClick
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1012
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f5ee8df1cc3c74db40041bb2df7096
+      internalID: 486768503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: musicLocked
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1013
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40823a9e24b74954c8357ec44ced0682
+      internalID: 1559775758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soundNormal
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 795
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae2a6af12f5b074e881ff5ec5babe65
+      internalID: 1199787902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soundHover
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 795
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284e66629c1bf654b81a2e95be0fa187
+      internalID: -152770841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soundClick
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 795
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca147ea4b856424ab88620695583868
+      internalID: -312951123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soundLocked
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 795
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d2414d9a14024eaf30a5815d04188
+      internalID: -696510904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closeNormal
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 2320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c920e34f0dd9d547a41d34893d164e6
+      internalID: 6968853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closeHover
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aaf33e8102c3c641987f2e3cad27c85
+      internalID: -2046499040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closeClick
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271c9f7aa53688b428ebb6c095031995
+      internalID: -1244834573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closeLocked
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 2320
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb0a207c8a6ade4b9a3ca4c28b750aa
+      internalID: -1932306849
       vertices: []
       indices: 
       edges: []
@@ -231,9 +567,25 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       click: -2012276380
+      closeClick: -1244834573
+      closeHover: -2046499040
+      closeLocked: -1932306849
+      closeNormal: 6968853
       hover: 960691220
       locked: 1258737910
+      menuClick: -1746064193
+      menuHover: 1652976105
+      menuLocked: -276970792
+      menuNormal: -1858753790
+      musicClick: 486768503
+      musicHover: -1956641941
+      musicLocked: 1559775758
+      musicNormal: -1356826016
       normal: -965412329
+      soundClick: -312951123
+      soundHover: -152770841
+      soundLocked: -696510904
+      soundNormal: 1199787902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
