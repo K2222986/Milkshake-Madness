@@ -3198,7 +3198,7 @@ GameObject:
   - component: {fileID: 1764219292}
   m_Layer: 0
   m_Name: Customer
-  m_TagString: Untagged
+  m_TagString: Customer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3618,6 +3618,7 @@ MonoBehaviour:
   peach: {fileID: 21300000, guid: 7824934e89ebc14428f9b0e0a6eedc1c, type: 3}
   watermelon: {fileID: 21300000, guid: cb21f49fe889ba24aa2ca5347c1f7883, type: 3}
   blueberry: {fileID: 21300000, guid: 0aebcbdec3c7dde46bbe5b80e136834a, type: 3}
+  milkshakeID: 0
 --- !u!1 &1919277298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3681,7 +3682,7 @@ Transform:
   m_GameObject: {fileID: 2006416688}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.287, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3700,7 +3701,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MilkShake:
-  - {fileID: 254047405}
+  - {fileID: 6321617351798226695, guid: c4938625591eb094991a4ba7f9b549c5, type: 3}
+  - {fileID: 6115905431854086999, guid: 04ffc3d39262d4c41b7ecc8487b7c1f7, type: 3}
+  - {fileID: 8142610917150292553, guid: ff52dda68e1af9143bcc50e6b582675d, type: 3}
+  - {fileID: 6866463774960463727, guid: 71d223f5de6af3c479a13050efddc046, type: 3}
 --- !u!1 &2117802337
 GameObject:
   m_ObjectHideFlags: 0
