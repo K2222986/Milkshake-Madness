@@ -3267,10 +3267,11 @@ Transform:
   m_GameObject: {fileID: 1764219291}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 15, y: 15, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_LocalPosition: {x: 0, y: -0.8, z: -1}
+  m_LocalScale: {x: 7.35, y: 7.35, z: 0.48999998}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 2006416689}
   m_Father: {fileID: 335154742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809025174
@@ -3614,9 +3615,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 1324835603}
   banana: {fileID: 21300000, guid: 76bd3c460e7db8140bf75e6465000c16, type: 3}
-  peach: {fileID: 21300000, guid: 78e0ab5d475edf34cb292fa4299639e7, type: 3}
-  watermelon: {fileID: 21300000, guid: 7824934e89ebc14428f9b0e0a6eedc1c, type: 3}
-  blueberry: {fileID: 21300000, guid: 7824934e89ebc14428f9b0e0a6eedc1c, type: 3}
+  peach: {fileID: 21300000, guid: 7824934e89ebc14428f9b0e0a6eedc1c, type: 3}
+  watermelon: {fileID: 21300000, guid: cb21f49fe889ba24aa2ca5347c1f7883, type: 3}
+  blueberry: {fileID: 21300000, guid: 0aebcbdec3c7dde46bbe5b80e136834a, type: 3}
 --- !u!1 &1919277298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3654,6 +3655,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2006416688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2006416689}
+  - component: {fileID: 2006416690}
+  m_Layer: 0
+  m_Name: CustomerDrink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2006416689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006416688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1764219293}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2006416690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006416688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23da5f3f003c18f4d8a488d47eff525e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MilkShake:
+  - {fileID: 254047405}
 --- !u!1 &2117802337
 GameObject:
   m_ObjectHideFlags: 0
