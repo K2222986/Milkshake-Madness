@@ -10,7 +10,7 @@ public class changeMilkshake : MonoBehaviour
     public Sprite watermelon;
     public Sprite blueberry;
 
-    public int milkshakeID;
+    private int milkshakeID;
     // milk shake flavour numbers 0: blueBerry, 1: watermelon, 2: peach, 3: bannana
 
     public void BananaSprite()
@@ -34,5 +34,5 @@ public class changeMilkshake : MonoBehaviour
         milkshakeID = 0;
     }
 
-    int GetMilkShakeID() {return milkshakeID;}
+    public int GetMilkShakeID() {return milkshakeID;}
 }

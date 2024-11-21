@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\scripts\\customerdrinkgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|c:\\users\\k2211326\\downloads\\milkshake-madness\\milkshake madness\\assets\\scripts\\moneycontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moneycontrollerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|c:\\users\\k2211326\\downloads\\milkshake-madness\\milkshake madness\\assets\\scripts\\customerdrinkgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customerdrinkgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|c:\\users\\k2211326\\downloads\\milkshake-madness\\milkshake madness\\assets\\scripts\\changemilkshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\milkshakeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\milkshakeid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\scripts\\changemilkshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changemilkshake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,30 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MoneyControllerScript.cs",
+              "DocumentMoniker": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\MoneyControllerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoneyControllerScript.cs",
+              "ToolTip": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\MoneyControllerScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoneyControllerScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:08:17.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MilkShakeID.cs",
+              "DocumentMoniker": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\MilkShakeID.cs",
+              "RelativeDocumentMoniker": "Assets\\MilkShakeID.cs",
+              "ToolTip": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\MilkShakeID.cs",
+              "RelativeToolTip": "Assets\\MilkShakeID.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:18:17.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "changeMilkshake.cs",
               "DocumentMoniker": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\changeMilkshake.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\changeMilkshake.cs",
               "ToolTip": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\changeMilkshake.cs",
               "RelativeToolTip": "Assets\\Scripts\\changeMilkshake.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:21:20.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T14:21:20.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomerDrinkGenerator.cs",
               "DocumentMoniker": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\CustomerDrinkGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomerDrinkGenerator.cs",
               "ToolTip": "C:\\Users\\k2211326\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\CustomerDrinkGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\CustomerDrinkGenerator.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBsAAAAXAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T13:13:35.413Z",
               "EditorCaption": ""

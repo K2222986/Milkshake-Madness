@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Simulator
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 116
+  controlID: 16
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -219,10 +219,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 613
     y: 0
-    width: 200
+    width: 251
     height: 939
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -243,9 +243,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 813
+    x: 864
     y: 0
-    width: 200
+    width: 382
     height: 939
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -269,12 +269,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1013
+    x: 1246
     y: 0
-    width: 907
+    width: 674
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -1053,7 +1053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 613
     y: 73
-    width: 198
+    width: 249
     height: 918
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1069,9 +1069,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 14bc0000
       m_LastClickedID: 0
-      m_ExpandedIDs: bafaffff1a8e0000428e0000d08e0000e88e0000
+      m_ExpandedIDs: 6a6fffff36a700005ea70000eca7000004a80000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1117,9 +1117,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 813
+    x: 864
     y: 73
-    width: 198
+    width: 380
     height: 918
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1160,7 +1160,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b0230000
     m_LastClickedID: 9136
-    m_ExpandedIDs: 00000000468f0000488f0000548f0000568f00009a8f00009c8f00009e8f0000a08f0000a28f0000a48f0000a68f0000a88f0000aa8f0000ac8f0000
+    m_ExpandedIDs: 0000000068a800006aa8000084a8000086a80000bea80000c0a80000c2a80000c4a80000c6a80000c8a80000caa80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1189,18 +1189,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000468f0000488f0000548f0000568f00009a8f00009c8f0000a08f0000a28f0000a68f0000aa8f0000d8990000
+    m_ExpandedIDs: ffffffff0000000068a800006aa8000084a8000086a80000bea80000c0a80000c2a80000c4a80000c6a80000c8a80000caa80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: BlueBerryMilkShakeObject
-      m_OriginalName: 'BlueBerryMilkShakeObject '
+      m_Name: MoneyControllerScript
+      m_OriginalName: MoneyControllerScript
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 39398
+      m_UserData: 48148
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1268,9 +1268,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1013
+    x: 1246
     y: 73
-    width: 906
+    width: 673
     height: 918
   m_SerializedDataModeController:
     m_DataMode: 0
