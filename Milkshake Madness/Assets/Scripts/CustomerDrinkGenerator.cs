@@ -9,16 +9,26 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     // parent object stuff
     private GameObject ParentObject;
-    private MilkShakeID MilkShakeID;
-    private GameObject newObject;
+    private GameObject newMilkShake;
 
+    // identifying milkshake
     private changeMilkshake ChosenMilkshake;
+    private MilkShakeID MilkShakeID;
+
+    //Money Stuff
+    public BankAccountScript BankAcccount;
+
+    public FloatingMoneyScript FloatingMoney;
+
+
+
+
     // TO DO: 
-        // it should compare the values if its the same the custmer is happy if not they are unhappy
-        // this all should loop 
+    // it should compare the values if its the same the custmer is happy if not they are unhappy
+    // this all should loop 
 
     // milk shake flavour numbers 0: blueBerry, 1: watermelon, 2: peach, 3: bannana
-    
+
     void Start()
     {
        ParentObject = GameObject.FindGameObjectWithTag("Customer"); // sets the parent object to the customer.
@@ -26,14 +36,13 @@ public class CustomerDrinkGenerator : MonoBehaviour
     }
     private void Update()
     {
-        
-         
+
         
     }
 
     public void CheckMilkShake() // checks if the milkshake matches the customers milkshake
     {
-        MilkShakeID = newObject.GetComponent<MilkShakeID>(); // customer milkshake
+        MilkShakeID = newMilkShake.GetComponent<MilkShakeID>(); // customer milkshake
         ChosenMilkshake = MilkShakeStation.GetComponent<changeMilkshake>(); // milk shake you choose
 
         if ( MilkShakeID.MilkShakeNum == ChosenMilkshake.GetMilkShakeID())
@@ -41,6 +50,9 @@ public class CustomerDrinkGenerator : MonoBehaviour
             Debug.Log("You got it right!");
 
             GenMilkshake();
+            BankAcccount.UpdateAccount(4); // This adds 4 to the bank account check BankAccountScript
+            FloatingMoney.AmountGained(4);
+            
 
         }
         else
@@ -52,9 +64,9 @@ public class CustomerDrinkGenerator : MonoBehaviour
     }
     void GenMilkshake() // chooses a random milk shake in the list and spawns it 
     {
-        Destroy(newObject);
+        Destroy(newMilkShake);
         random = Random.Range(0, MilkShake.Length); // sets it to a random milkshake
-        newObject = Instantiate(MilkShake[random], transform.position, transform.rotation); // creates the milkshake
-        newObject.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
+        newMilkShake = Instantiate(MilkShake[random], transform.position, transform.rotation); // creates the milkshake
+        newMilkShake.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
     }
 }
