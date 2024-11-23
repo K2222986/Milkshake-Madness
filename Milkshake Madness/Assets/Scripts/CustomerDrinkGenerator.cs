@@ -20,7 +20,10 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     public FloatingMoneyScript FloatingMoney;
 
-
+    // Timer Stuff
+    public TimeofDayScript TimeBar;
+    public float MaxTime;
+    public float CurrentTime;
 
 
     // TO DO: 
@@ -32,11 +35,21 @@ public class CustomerDrinkGenerator : MonoBehaviour
     void Start()
     {
        ParentObject = GameObject.FindGameObjectWithTag("Customer"); // sets the parent object to the customer.
+
+        // Time Stuff
+       TimeBar.SetMaxTime(MaxTime);
+       CurrentTime = MaxTime;
+
        GenMilkshake(); 
     }
     private void Update()
     {
-        
+        DecreaseTime(0.1f);
+        if (CurrentTime <= 0)
+        {
+            // game is over
+            // check if you made enough money 
+        }
         
     }
 
@@ -68,5 +81,11 @@ public class CustomerDrinkGenerator : MonoBehaviour
         random = Random.Range(0, MilkShake.Length); // sets it to a random milkshake
         newMilkShake = Instantiate(MilkShake[random], transform.position, transform.rotation); // creates the milkshake
         newMilkShake.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
+    }
+
+    private void DecreaseTime(float amount)
+    {
+        CurrentTime -= amount;
+        TimeBar.SetCurrentTime(CurrentTime);
     }
 }

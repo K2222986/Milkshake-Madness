@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\FloatingMoneyScript.cs" />
     <Compile Include="Assets\randomFruit.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TimeofDayScript.cs" />
     <Compile Include="Assets\Scripts\BankAccountScript.cs" />
     <Compile Include="Assets\Scripts\changeMilkshake.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
