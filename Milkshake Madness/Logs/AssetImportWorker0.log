@@ -15,7 +15,7 @@ C:/Users/Marsgaming155/Downloads/Milkshake-Madness/Milkshake Madness
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51365
+53836
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Marsgaming155/Downloads/Milkshake-Madness/Milkshake Madness
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18920]  Target information:
+Player connection [16556]  Target information:
 
-Player connection [18920]  * "[IP] 192.168.0.79 [Port] 0 [Flags] 2 [Guid] 3524605109 [EditorId] 3524605109 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GPNQB43) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16556]  * "[IP] 192.168.0.79 [Port] 0 [Flags] 2 [Guid] 2562107328 [EditorId] 2562107328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GPNQB43) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18920] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16556] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16556] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Library Redirect Path: Library/
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
@@ -84,46 +84,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004661 seconds.
-- Loaded All Assemblies, in  0.336 seconds
+Registered in 0.003525 seconds.
+- Loaded All Assemblies, in  0.302 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 249 ms
+Android Extension - Scanning For ADB Devices 222 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.639 seconds
-Domain Reload Profiling: 972ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 903ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (116ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (116ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (112ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (103ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (639ms)
+	FinalizeReload (603ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (595ms)
+		SetupLoadedEditorAssemblies (559ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (352ms)
+			InitializePlatformSupportModulesInManaged (325ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (98ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -132,8 +132,8 @@ Domain Reload Profiling: 972ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.828 seconds
-Refreshing native plugins compatible for Editor in 4.84 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.816 seconds
+Refreshing native plugins compatible for Editor in 5.05 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
@@ -144,1934 +144,515 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.718 seconds
-Domain Reload Profiling: 1541ms
-	BeginReloadAssembly (325ms)
+- Finished resetting the current domain, in  0.711 seconds
+Domain Reload Profiling: 1521ms
+	BeginReloadAssembly (333ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (320ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (299ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (116ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (718ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (517ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4651 unused Assets / (1.2 MB). Loaded Objects now: 5229.
-Memory consumption went from 122.9 MB to 121.8 MB.
-Total: 8.247000 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.194200 ms MarkObjects: 6.571400 ms  DeleteObjects: 1.050400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 6114.289699 seconds.
-  path: Assets/Prefabs/FloatingMoney.prefab
-  artifactKey: Guid(0f31ae48be6046a44b4445342c6f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloatingMoney.prefab using Guid(0f31ae48be6046a44b4445342c6f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3f4bdebab96a1d6768a881d4f12dacc2') in 0.0454289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 2913.519780 seconds.
-  path: Assets/Prefabs/BannaMilkShakeObject.prefab
-  artifactKey: Guid(71d223f5de6af3c479a13050efddc046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BannaMilkShakeObject.prefab using Guid(71d223f5de6af3c479a13050efddc046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f14899c459bd662c62e7baad6c1a0b46') in 0.0655771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.396133 seconds.
-  path: Assets/Prefabs/BlueBerryMilkShakeObject .prefab
-  artifactKey: Guid(c4938625591eb094991a4ba7f9b549c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BlueBerryMilkShakeObject .prefab using Guid(c4938625591eb094991a4ba7f9b549c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3e2b6fdecc3b5f6ddce71e399930b615') in 0.0103866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.706020 seconds.
-  path: Assets/Prefabs/PeachMIlkShakeObject.prefab
-  artifactKey: Guid(ff52dda68e1af9143bcc50e6b582675d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PeachMIlkShakeObject.prefab using Guid(ff52dda68e1af9143bcc50e6b582675d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '83f41490c5e05e90aeaec305af8e06ff') in 0.0108173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4613 unused Assets / (0.9 MB). Loaded Objects now: 5239.
-Memory consumption went from 114.7 MB to 113.8 MB.
-Total: 6.321900 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.182600 ms MarkObjects: 5.034100 ms  DeleteObjects: 0.703500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.599 seconds
-Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.666 seconds
-Domain Reload Profiling: 1262ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (331ms)
-		LoadAssemblies (288ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (127ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (113ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (102ms)
+			BuildScriptInfoCaches (41ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (667ms)
+	FinalizeReload (711ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (236ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.38 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4649 unused Assets / (2.1 MB). Loaded Objects now: 5241.
-Memory consumption went from 116.2 MB to 114.1 MB.
-Total: 9.468800 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.195600 ms MarkObjects: 6.752300 ms  DeleteObjects: 2.116600 ms)
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4652 unused Assets / (1.0 MB). Loaded Objects now: 5230.
+Memory consumption went from 122.9 MB to 121.9 MB.
+Total: 6.226700 ms (FindLiveObjects: 0.466800 ms CreateObjectMapping: 0.236500 ms MarkObjects: 4.577100 ms  DeleteObjects: 0.945700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4613 unused Assets / (1.0 MB). Loaded Objects now: 5241.
-Memory consumption went from 116.2 MB to 115.2 MB.
-Total: 5.920900 ms (FindLiveObjects: 0.578300 ms CreateObjectMapping: 0.219800 ms MarkObjects: 4.322400 ms  DeleteObjects: 0.799500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.601 seconds
-Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.612 seconds
+Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.657 seconds
-Domain Reload Profiling: 1255ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (185ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (27ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (301ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (124ms)
+			BuildScriptInfoCaches (116ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (657ms)
+	FinalizeReload (638ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (462ms)
+		SetupLoadedEditorAssemblies (442ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (138ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4649 unused Assets / (1.0 MB). Loaded Objects now: 5243.
-Memory consumption went from 116.2 MB to 115.2 MB.
-Total: 6.056200 ms (FindLiveObjects: 0.442400 ms CreateObjectMapping: 0.214200 ms MarkObjects: 4.490400 ms  DeleteObjects: 0.908300 ms)
+Unloading 4650 unused Assets / (0.9 MB). Loaded Objects now: 5233.
+Memory consumption went from 115.5 MB to 114.6 MB.
+Total: 5.355100 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.186000 ms MarkObjects: 4.033100 ms  DeleteObjects: 0.728500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 356.203080 seconds.
-  path: Assets/Prefabs/FloatingMoney.prefab
-  artifactKey: Guid(0f31ae48be6046a44b4445342c6f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloatingMoney.prefab using Guid(0f31ae48be6046a44b4445342c6f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ea507b8fe2ad280c5e0c9ec9d9407a3d') in 0.0429718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.545 seconds
-Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.526 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.648 seconds
-Domain Reload Profiling: 1191ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1173ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
+		CreateAndSetChildDomain (39ms)
 	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (322ms)
-		LoadAssemblies (263ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (262ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (134ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (122ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (649ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (650ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (446ms)
+		SetupLoadedEditorAssemblies (456ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (52ms)
 			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4649 unused Assets / (1.0 MB). Loaded Objects now: 5245.
-Memory consumption went from 116.2 MB to 115.2 MB.
-Total: 5.865200 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.199400 ms MarkObjects: 4.371100 ms  DeleteObjects: 0.838300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 120.291437 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
-  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6368b5d02fb5347cc93c15bf36beac20') in 0.045666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
-  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e827286bb41b23b5b4a5aaf4a3c149b7') in 0.0155464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.24 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4614 unused Assets / (0.9 MB). Loaded Objects now: 5245.
-Memory consumption went from 116.4 MB to 115.5 MB.
-Total: 6.074600 ms (FindLiveObjects: 0.429400 ms CreateObjectMapping: 0.193800 ms MarkObjects: 4.669700 ms  DeleteObjects: 0.781200 ms)
+Unloading 4650 unused Assets / (0.9 MB). Loaded Objects now: 5235.
+Memory consumption went from 115.5 MB to 114.6 MB.
+Total: 6.019700 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.231100 ms MarkObjects: 4.584300 ms  DeleteObjects: 0.763900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.604 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.642 seconds
-Domain Reload Profiling: 1243ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (26ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (298ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (270ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (114ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (642ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (700ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (455ms)
+		SetupLoadedEditorAssemblies (499ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 4.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4649 unused Assets / (1.1 MB). Loaded Objects now: 5247.
-Memory consumption went from 116.2 MB to 115.1 MB.
-Total: 6.521600 ms (FindLiveObjects: 0.440800 ms CreateObjectMapping: 0.228900 ms MarkObjects: 4.957700 ms  DeleteObjects: 0.893500 ms)
+Unloading 4650 unused Assets / (0.9 MB). Loaded Objects now: 5237.
+Memory consumption went from 115.5 MB to 114.6 MB.
+Total: 7.568300 ms (FindLiveObjects: 0.457400 ms CreateObjectMapping: 0.448200 ms MarkObjects: 5.704600 ms  DeleteObjects: 0.957300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4614 unused Assets / (0.8 MB). Loaded Objects now: 5237.
+Memory consumption went from 115.5 MB to 114.6 MB.
+Total: 5.957400 ms (FindLiveObjects: 0.430900 ms CreateObjectMapping: 0.201500 ms MarkObjects: 4.642800 ms  DeleteObjects: 0.681200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 4.82 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1193ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (114ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4650 unused Assets / (0.9 MB). Loaded Objects now: 5239.
+Memory consumption went from 115.5 MB to 114.6 MB.
+Total: 5.765800 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.201500 ms MarkObjects: 4.418100 ms  DeleteObjects: 0.715300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 103.806632 seconds.
-  path: Assets/Prefabs/FloatingMoney.prefab
-  artifactKey: Guid(0f31ae48be6046a44b4445342c6f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FloatingMoney.prefab using Guid(0f31ae48be6046a44b4445342c6f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8963849b6554164d87c662ef9f3e9de7') in 0.0424549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 81606.827131 seconds.
+  path: Assets/TextMesh Pro/Fonts/FatPix-SVG SDF.asset
+  artifactKey: Guid(95bc1236e2102a84eadc09e19664cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/FatPix-SVG SDF.asset using Guid(95bc1236e2102a84eadc09e19664cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee1773a928272bd4137ac95bbc8f89d4') in 0.1024909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.687 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (687ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4650 unused Assets / (0.9 MB). Loaded Objects now: 5285.
+Memory consumption went from 116.4 MB to 115.5 MB.
+Total: 5.806500 ms (FindLiveObjects: 0.429100 ms CreateObjectMapping: 0.208400 ms MarkObjects: 4.353600 ms  DeleteObjects: 0.814700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time since last request: 8.711693 seconds.
-  path: Assets/randomFruit.cs
-  artifactKey: Guid(267a214de5af663448092f7c8abf5dc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/randomFruit.cs using Guid(267a214de5af663448092f7c8abf5dc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '057a2d0d32aeda983c99fab84a1508ed') in 0.0688051 seconds
+  Time since last request: 551.006275 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(bffb5848db44d3e4ea301dcf307f1a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(bffb5848db44d3e4ea301dcf307f1a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eea4c5769997eaaa8526fd4d4f374e87') in 0.0020957 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/StarwberryMilkshake.png
-  artifactKey: Guid(7824934e89ebc14428f9b0e0a6eedc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/StarwberryMilkshake.png using Guid(7824934e89ebc14428f9b0e0a6eedc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '60e1711ba30db7f4da5f9400e1cb8822') in 0.0542852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
-  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '310718c4b61b734eaf8abf567b6e9fad') in 0.0095836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TutorialInfo/Icons/Mobile 2D.png
-  artifactKey: Guid(eda43ba821d75d046a45209bde150047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TutorialInfo/Icons/Mobile 2D.png using Guid(eda43ba821d75d046a45209bde150047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f273a17dfbf59a4a8e64e8b1ff1184ac') in 0.0150583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
-  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '52fdffc3afda9d2e4bf317ed9948dabd') in 0.0139751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/WatermelonMIlkShakeObject.prefab
-  artifactKey: Guid(04ffc3d39262d4c41b7ecc8487b7c1f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/WatermelonMIlkShakeObject.prefab using Guid(04ffc3d39262d4c41b7ecc8487b7c1f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e7fa0e6d4fd25d1109a94cf7a1886ac2') in 0.0304063 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scripts/MilkShakeID.cs
-  artifactKey: Guid(d128f020f87ed2942ba89a8e288c775a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/MilkShakeID.cs using Guid(d128f020f87ed2942ba89a8e288c775a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '245c37abcac4a599ebaef1de9981d40d') in 0.0076032 seconds
+  Time since last request: 14.683627 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3b2def1f04261bd41814378b40e8151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3b2def1f04261bd41814378b40e8151a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ab98997a4c508c956988f0968aa727a') in 0.0004169 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/ChocolateMilkshake.png
-  artifactKey: Guid(78e0ab5d475edf34cb292fa4299639e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/ChocolateMilkshake.png using Guid(78e0ab5d475edf34cb292fa4299639e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '864abbf023cae1b97af01319fd2723f9') in 0.0197347 seconds
+  Time since last request: 673.039457 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/guides/animations, page 1.png
+  artifactKey: Guid(0cebc7eb733fe0a449c20d8c40378ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/guides/animations, page 1.png using Guid(0cebc7eb733fe0a449c20d8c40378ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a24fb81a30c0980c8811c3b9743ecfa8') in 0.0755311 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '810c2f8a33c11fce5133ddb7779ddde7') in 0.0113995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/FreeGUI/eps/BG.eps
-  artifactKey: Guid(c46ff1f3f02372f48a9d16999841c1fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FreeGUI/eps/BG.eps using Guid(c46ff1f3f02372f48a9d16999841c1fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e2246cd580a62c2664a21e236b9ced63') in 0.0097595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
-  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b1d78dd929ac728dc8a4ef9fbb4199c') in 0.0136146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scripts/BankAccountScript.cs
-  artifactKey: Guid(5a8321aba7eee334b8b6adc724ff3ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/BankAccountScript.cs using Guid(5a8321aba7eee334b8b6adc724ff3ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4e49fce0ee48909cee0a442b121c9e7b') in 0.0077675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/WaterMelonMilkShake.png
-  artifactKey: Guid(cb21f49fe889ba24aa2ca5347c1f7883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/WaterMelonMilkShake.png using Guid(cb21f49fe889ba24aa2ca5347c1f7883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a5cddb2e2f9aed64b7340a19ed61a9a1') in 0.0140249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '59ef05ad1c72ae120946509bf4156e6f') in 0.0181719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
   path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/BlueBerryMilkshake.png
-  artifactKey: Guid(0aebcbdec3c7dde46bbe5b80e136834a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/BlueBerryMilkshake.png using Guid(0aebcbdec3c7dde46bbe5b80e136834a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2a1496366eefe0a72b62f07144a2a73a') in 0.0143325 seconds
+  artifactKey: Guid(0aebcbdec3c7dde46bbe5b80e136834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/BlueBerryMilkshake.png using Guid(0aebcbdec3c7dde46bbe5b80e136834a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '008c1e449b8469782a43e739f88eefe9') in 0.0134086 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/FreeGUI/svg/Window.svg
-  artifactKey: Guid(2379fcd91903a7d4b8e5031b91761560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FreeGUI/svg/Window.svg using Guid(2379fcd91903a7d4b8e5031b91761560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '587cf841117fd22dc8485b5b248b770c') in 0.0067096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_fstr_v04.png
-  artifactKey: Guid(09a95189861e15f4a812ba870d5370ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_fstr_v04.png using Guid(09a95189861e15f4a812ba870d5370ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '64553bb18f165097102002da88cbfb65') in 0.0210656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FreeGUI/ai/Window.ai
-  artifactKey: Guid(1a2debc3e614a4f4882ad6d6704c96bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FreeGUI/ai/Window.ai using Guid(1a2debc3e614a4f4882ad6d6704c96bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'efa54d2baf900cfe21b0c26e64fd9a6e') in 0.0084449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/FreeGUI/svg/BG.svg
-  artifactKey: Guid(58f6e5c1c475c2242bb7fef7842b7a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FreeGUI/svg/BG.svg using Guid(58f6e5c1c475c2242bb7fef7842b7a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1573a109c8e7fca8a8bb767b99c09dfb') in 0.0097904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png
-  artifactKey: Guid(60d226c09d139a34fb66f1eb356bc3ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png using Guid(60d226c09d139a34fb66f1eb356bc3ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8003d0ac5724b34e8ea26790d6e8c39e') in 0.0865984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/readme.txt
-  artifactKey: Guid(4401aa8a935f2ce4b8fd38593febfa15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/readme.txt using Guid(4401aa8a935f2ce4b8fd38593febfa15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2db69b3f4c80f7903e407e715f91a627') in 0.0130462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
-  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4bfca065fca38c008f056bae1a95d977') in 0.0079959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scripts/changeMilkshake.cs
-  artifactKey: Guid(dd0d424631de97e4c8804c335c80d917) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/changeMilkshake.cs using Guid(dd0d424631de97e4c8804c335c80d917) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '63a5a0bd71a40e273bbdd6b0ffc65a1e') in 0.0092029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Prefabs/BlueBerryMilkShakeObject .prefab
-  artifactKey: Guid(c4938625591eb094991a4ba7f9b549c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/BlueBerryMilkShakeObject .prefab using Guid(c4938625591eb094991a4ba7f9b549c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6b1583244800574cecfc6aad888d3db6') in 0.013553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/guides/using this base.txt
-  artifactKey: Guid(2662883be0c0c8248809f6ccd3bf85f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/guides/using this base.txt using Guid(2662883be0c0c8248809f6ccd3bf85f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c1b399e3587b6b713a783561563608e1') in 0.015414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bf1b06a7ac943610c7a5022ffcc2e855') in 0.0092395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
-  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fddce79a300a7ce581673d770629b412') in 0.0108655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_undi_v01.png
-  artifactKey: Guid(310b92f1eca70d3489a8bffe548dd1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_undi_v01.png using Guid(310b92f1eca70d3489a8bffe548dd1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5910714d8a07f85d99ae87cd88510eb6') in 0.018669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat/char_a_p1_5hat_pfht_v04.png
-  artifactKey: Guid(6562cbd295d17a44eba14026e3b9ee17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat/char_a_p1_5hat_pfht_v04.png using Guid(6562cbd295d17a44eba14026e3b9ee17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '86f92fc567d4e906a9151100c60f0b4d') in 0.0288055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FreeGUI/eps/Button.eps
-  artifactKey: Guid(c2ede7454061cae4f9fc35a42e8c581a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FreeGUI/eps/Button.eps using Guid(c2ede7454061cae4f9fc35a42e8c581a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c34a71c02b4ca02d57701cc1d07b10b1') in 0.0089227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_raw.png
-  artifactKey: Guid(752419856a7d55f4baf441f669581a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_raw.png using Guid(752419856a7d55f4baf441f669581a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6699d03182450299f5c400d445a31cbc') in 0.0160917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cheese_mozzarella.png
-  artifactKey: Guid(35362ee90e595644987b514677ace7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cheese_mozzarella.png using Guid(35362ee90e595644987b514677ace7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aac768ad18e4f803818d276acc89acc0') in 0.0167617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cheese_blue.png
-  artifactKey: Guid(653f062c7c358464e8634880e6d8d56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cheese_blue.png using Guid(653f062c7c358464e8634880e6d8d56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c43f8bf19123b5e4d08480d721820638') in 0.0196459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_peach.png
-  artifactKey: Guid(73c7b99809f68c9429218c00652ac0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_peach.png using Guid(73c7b99809f68c9429218c00652ac0f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9b2bb077b7f13a5416bb7a2029f4d062') in 0.0182618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_orange_slice.png
-  artifactKey: Guid(978ffdfa6392f014e9d677b381909c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_orange_slice.png using Guid(978ffdfa6392f014e9d677b381909c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6359dca8c52c335901391714125f399c') in 0.0202895 seconds
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_chocolate.png
+  artifactKey: Guid(e59fee5ab880fdf4594bc79d9f9cd4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_chocolate.png using Guid(e59fee5ab880fdf4594bc79d9f9cd4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0e0633cc8072505c2171c1b222d0fed') in 0.0127978 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/jam_blueberry.png
-  artifactKey: Guid(3f4d5d2d633aad24ba0ea5dab1b2b555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/jam_blueberry.png using Guid(3f4d5d2d633aad24ba0ea5dab1b2b555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '03cc3271879a8e914eb868bbe0093644') in 0.0186113 seconds
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_taro.png
+  artifactKey: Guid(0e7afba7ca023da4aa08154152281955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_taro.png using Guid(0e7afba7ca023da4aa08154152281955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5586720667f3f85cccec26cfb6a3ade') in 0.0130493 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_blueberry.png
-  artifactKey: Guid(202ea13f2544f0d418dcf7db48ba841d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_blueberry.png using Guid(202ea13f2544f0d418dcf7db48ba841d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '459bfef8a9b941f001db640dae946c63') in 0.0197325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/guides/timing sample gifs/running sample.gif
-  artifactKey: Guid(75315a677475874499f889b3fb2dd74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/guides/timing sample gifs/running sample.gif using Guid(75315a677475874499f889b3fb2dd74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '927ce4ae2b75498c5933ba0dcc1bd5f6') in 0.0174544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_lime.png
-  artifactKey: Guid(18a0441486887a049a5ac8684cc283bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_lime.png using Guid(18a0441486887a049a5ac8684cc283bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '950ca26861272a8bcb8f1853aa862321') in 0.0182064 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat/char_a_p1_5hat_pnty_v04.png
-  artifactKey: Guid(5c3044bf3f17af44a89c7bbd71856576) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat/char_a_p1_5hat_pnty_v04.png using Guid(5c3044bf3f17af44a89c7bbd71856576) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cb6fffc9a634bf78a73e28b17b8d32e9') in 0.0234177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/eggs_scrambled.png
-  artifactKey: Guid(98df7193d184e504e90a91debd620afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/eggs_scrambled.png using Guid(98df7193d184e504e90a91debd620afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd77c12e2f1c5e20ee5e1f1a2c73452d2') in 0.0212394 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_strawberry.png
-  artifactKey: Guid(57980b5e10426aa4587addbaa8e0eb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_strawberry.png using Guid(57980b5e10426aa4587addbaa8e0eb89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6e34b1b423ae4ea5727b8a791e150c9d') in 0.0196287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/guides/timing sample gifs/walking sample.gif
-  artifactKey: Guid(16c0a648264814943b4515ee8e5f1ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/guides/timing sample gifs/walking sample.gif using Guid(16c0a648264814943b4515ee8e5f1ba6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f5f36068031f3d4ae17a729eee589254') in 0.0182654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_apple-slice.png
-  artifactKey: Guid(da63af40aa4355346b6e7c4c6bfc17b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_apple-slice.png using Guid(da63af40aa4355346b6e7c4c6bfc17b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e74ded0d40480c2a5cfa7fff85e9976c') in 0.0169121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_greengrape.png
-  artifactKey: Guid(d0be4989986ee5f4fbe05195b092cc16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_greengrape.png using Guid(d0be4989986ee5f4fbe05195b092cc16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'afe261c10e0058f51306ce9be91d35d6') in 0.0194923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '25fc6e16de6f98fd0874b606a7a5c073') in 0.0173207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/eggs_softboiled.png
-  artifactKey: Guid(bf646059ee7d1964dac0335ead70469c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/eggs_softboiled.png using Guid(bf646059ee7d1964dac0335ead70469c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ae3905c34fb62c37c56b6815a9b84927') in 0.0252319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cd429a34ec661f1b08735da6b7684cbe') in 0.0109129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scripts/MainMenu.cs
-  artifactKey: Guid(98c73a0e5a24e9641bc1dd463c9be9dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/MainMenu.cs using Guid(98c73a0e5a24e9641bc1dd463c9be9dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0020e6e2437f45de9416b535a59a2cd4') in 0.0084626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '157f5eea5a401134780936d5bf7b3f3b') in 0.0109695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FREE Mana Seed Character Base Demo/guides/animations, page 1.png
-  artifactKey: Guid(0cebc7eb733fe0a449c20d8c40378ca9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FREE Mana Seed Character Base Demo/guides/animations, page 1.png using Guid(0cebc7eb733fe0a449c20d8c40378ca9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '71c4ca227f502b06022cf5c581433e6a') in 0.0167955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_mango.png
-  artifactKey: Guid(b4987c579ee21bf4c8d2ea37b0e7eb70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_mango.png using Guid(b4987c579ee21bf4c8d2ea37b0e7eb70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7245216bdc8efb41e624505010bc2dbd') in 0.0184623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/eggs_brown.png
-  artifactKey: Guid(8affa632cd5ceab4585602262a855dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/eggs_brown.png using Guid(8affa632cd5ceab4585602262a855dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c253e8e85efccccdf7fa58c3c1e2e889') in 0.0215146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FreeGUI/png/README.txt
-  artifactKey: Guid(8ed8a6de730993a489db860088c1566d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/FreeGUI/png/README.txt using Guid(8ed8a6de730993a489db860088c1566d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '11aed5c9c81ae3358b7e6872cad5bb37') in 0.0129497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_lightroast.png
-  artifactKey: Guid(e477925d5fb71ca4a8dddac41b6f5e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_lightroast.png using Guid(e477925d5fb71ca4a8dddac41b6f5e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b3f31c1d0d374ea79aa5d916ed5eac41') in 0.0178553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6fc02baa773cf195c6e7aa8e7a910c96') in 0.0098963 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_coffee.png
-  artifactKey: Guid(1af6830a99087794fa3fb645459e3705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_coffee.png using Guid(1af6830a99087794fa3fb645459e3705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ef9c0faa6257ad57b82d298b5322011e') in 0.0200866 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/StarwberryMilkshake_RDBG.png
-  artifactKey: Guid(7193d83aab1cb874da548c9322db5c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/StarwberryMilkshake_RDBG.png using Guid(7193d83aab1cb874da548c9322db5c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fde2c85f3e352cb3cff3b239164f933d') in 0.0218785 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_darkroast.png
-  artifactKey: Guid(267ee0f2a8c90494c9a7aabca03334db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_darkroast.png using Guid(267ee0f2a8c90494c9a7aabca03334db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '987fba4fd3a8fd76f1a1b2ff6556714d') in 0.0196366 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_thai.png
-  artifactKey: Guid(7c75cd2e038d1744b9b230090a106089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_thai.png using Guid(7c75cd2e038d1744b9b230090a106089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '170264ed08fec6559ff7192032f4ee3d') in 0.0188028 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
-  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '00cbfd7d67b85ed87438f3071d172f42') in 0.0127825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_match.png
-  artifactKey: Guid(36f7c84713b27ee4d837d3807c3d0fd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_match.png using Guid(36f7c84713b27ee4d837d3807c3d0fd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1a1d27b5f698353e05f938538752b702') in 0.0196451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/popsicle_red.png
-  artifactKey: Guid(3d2ce1d9ca51dd449812fd89a3142824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/popsicle_red.png using Guid(3d2ce1d9ca51dd449812fd89a3142824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5257946b031dcd9b7c843c1101a63122') in 0.0185968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_2.png
-  artifactKey: Guid(c698778927a7dbd49a29960bb279c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_2.png using Guid(c698778927a7dbd49a29960bb279c8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '06a8b4ba28173445e5c8c62fbf791be6') in 0.0190353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_cucumber.png
-  artifactKey: Guid(bbe586c4a4f99c6469ea9199b3b8932a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_cucumber.png using Guid(bbe586c4a4f99c6469ea9199b3b8932a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '38704e14a80b644ca14fc2df378553b4') in 0.016925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_mango.png
-  artifactKey: Guid(c0e0c6e03c658ff46a7ab63fc8fe09de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_mango.png using Guid(c0e0c6e03c658ff46a7ab63fc8fe09de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1b84f6b1863b184f2584018fb7f7f91b') in 0.0190326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/popsicle_blue.png
-  artifactKey: Guid(178f5df94458a2049952e87213c0bfd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/popsicle_blue.png using Guid(178f5df94458a2049952e87213c0bfd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c53adfee15754cf511b4fd583fcc9c20') in 0.0196178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_bellpepper_yellow.png
-  artifactKey: Guid(09247b8416c9e6a499ed09632353362e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_bellpepper_yellow.png using Guid(09247b8416c9e6a499ed09632353362e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3b67eea9e4d758be529769b2d40f358f') in 0.0165949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/pastry_brioche.png
-  artifactKey: Guid(35bb9a21e3d7785478e597e73102b650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/pastry_brioche.png using Guid(35bb9a21e3d7785478e597e73102b650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8e5448fbd1b84a881e20969e7d9a82a3') in 0.0198392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a3339dafc90fb5f58db12347b8232e88') in 0.0163053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_corn.png
-  artifactKey: Guid(8e93e0b992a712e44a07349ce46fae31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_corn.png using Guid(8e93e0b992a712e44a07349ce46fae31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0891ef055dd9980855eeb132a2f35482') in 0.021884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_apple.png
-  artifactKey: Guid(667a3ebef75eb194fbfe4a4b0d3c3965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_apple.png using Guid(667a3ebef75eb194fbfe4a4b0d3c3965) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b49ad911f25f2e6ffedb895720e3e1ff') in 0.0175987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefabs/BannaMilkShakeObject.prefab
-  artifactKey: Guid(71d223f5de6af3c479a13050efddc046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/BannaMilkShakeObject.prefab using Guid(71d223f5de6af3c479a13050efddc046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'efc3c787ba9251e6a30caeed37b0b952') in 0.0137524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_grape_red.png
-  artifactKey: Guid(1b6ec8c55863ed74193c5ddb3a61686b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_grape_red.png using Guid(1b6ec8c55863ed74193c5ddb3a61686b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7fa38e4c421f06b67da8bde62328a2b0') in 0.017198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Menu.unity using Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '74fd4acb9d9699fec6a54c729cc0bfc3') in 0.0062263 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TutorialInfo/Scripts/Readme.cs
-  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bac842a1559372d0dcf24b68ffc2682d') in 0.0071778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
-  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5d6506f297f893d646cf555c8b869755') in 0.0081476 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_peach.png
-  artifactKey: Guid(316e6af07bffb4544a8148837e8b904f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_peach.png using Guid(316e6af07bffb4544a8148837e8b904f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a159cea770e8cb2e00da4e2b7260ae72') in 0.0197709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt
-  artifactKey: Guid(f28c334d44214474d9702d3ad79ecb0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt using Guid(f28c334d44214474d9702d3ad79ecb0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2b0968d1e6519cabd97fd58af1d855a5') in 0.011022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
   path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/canned_soup.png
-  artifactKey: Guid(811c12602d522f14cb6d5586522565f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/canned_soup.png using Guid(811c12602d522f14cb6d5586522565f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f942e59a31fbda0780816efeb46cbbbf') in 0.0181139 seconds
+  artifactKey: Guid(811c12602d522f14cb6d5586522565f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/canned_soup.png using Guid(811c12602d522f14cb6d5586522565f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '507d12e8fd98d5b9a256e86284e6a546') in 0.0137879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_strawberry.png
+  artifactKey: Guid(fb404dd5b3fd11b44b095ee3881085e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_strawberry.png using Guid(fb404dd5b3fd11b44b095ee3881085e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '385ce386dfddf3fb5c3bd6326e9a3725') in 0.0200935 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_garlic.png
-  artifactKey: Guid(677ee61705c00104daea906890293d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_garlic.png using Guid(677ee61705c00104daea906890293d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e4f1b3d889263ba7b056e611d5e314c2') in 0.016286 seconds
+  path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/BananaMilkshake_RDBG.png
+  artifactKey: Guid(ad1391a1907a53742ab653387addafac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/BananaMilkshake_RDBG.png using Guid(ad1391a1907a53742ab653387addafac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5188fccd388ea4de48b7410770509034') in 0.0239067 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_almond.png
-  artifactKey: Guid(0462efc684dc43c498a2bc24bd78f4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_almond.png using Guid(0462efc684dc43c498a2bc24bd78f4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd979dd2b9e8a959588790fbc6277b1d0') in 0.0197808 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/milkshake_MilesPrower/milkshake_MilesPrower/BananaMilkshake.png
+  artifactKey: Guid(76bd3c460e7db8140bf75e6465000c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/milkshake_MilesPrower/milkshake_MilesPrower/BananaMilkshake.png using Guid(76bd3c460e7db8140bf75e6465000c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43fee875cdddf70f67e1f31db855c463') in 0.0191495 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '90913713e4836cec8e1d2a0fb2ac1d27') in 0.0102919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Bar.png
+  artifactKey: Guid(c8bbd02a88c2bbc41b7d7e50ec7b2aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bar.png using Guid(c8bbd02a88c2bbc41b7d7e50ec7b2aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '316fa9648067e8500bd2f850818d5c90') in 0.0223249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7ccee7b41ff444c39edfc16386f70f7e') in 0.008446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_thai.png
+  artifactKey: Guid(7c75cd2e038d1744b9b230090a106089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_thai.png using Guid(7c75cd2e038d1744b9b230090a106089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3ba421539f2bccbdcafa8e49714f5c4') in 0.026472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_milktea.png
+  artifactKey: Guid(23dc36037b4309a4a996e014ac1dd2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_milktea.png using Guid(23dc36037b4309a4a996e014ac1dd2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd77ce9488444ddb43b068b2705c2c565') in 0.0211146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_mango.png
+  artifactKey: Guid(b4987c579ee21bf4c8d2ea37b0e7eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_mango.png using Guid(b4987c579ee21bf4c8d2ea37b0e7eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd28da55aea0cfff4b449451b34952401') in 0.019411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_cheese.png
+  artifactKey: Guid(94f6a8376a75dee409cf0e24a9768b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_cheese.png using Guid(94f6a8376a75dee409cf0e24a9768b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c22a6ab49688fcfa6a62dc16a94d78c1') in 0.0193514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_matcha.png
+  artifactKey: Guid(66e9ff2d7e5b12b48bfe9227a4b6b4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_matcha.png using Guid(66e9ff2d7e5b12b48bfe9227a4b6b4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e0a7ca43d213a69d2605e934ef3e4908') in 0.0753853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
   path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_redvelvet.png
-  artifactKey: Guid(0225d240271e6e94b9a8902fe903fb46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_redvelvet.png using Guid(0225d240271e6e94b9a8902fe903fb46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8e06ce62695e50a3eed8a76902190d87') in 0.0179414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_1.png
-  artifactKey: Guid(20f4f0d872f691f4e94b7433d05f3f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_1.png using Guid(20f4f0d872f691f4e94b7433d05f3f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fc5753f8016975605891232d9a2fe8f6') in 0.0176431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_banana.png
-  artifactKey: Guid(1b8d0df3b649fd440b20951c76091229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_banana.png using Guid(1b8d0df3b649fd440b20951c76091229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '94844352026e090020f49fb63099506b') in 0.0184071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_carrot.png
-  artifactKey: Guid(0c846abf5960f4c43ba434abb5a67e0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_carrot.png using Guid(0c846abf5960f4c43ba434abb5a67e0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '29cdc822c0a18c42650d8972feff1cd4') in 0.0175683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_chocomint.png
-  artifactKey: Guid(69feb43a32ae1e14f8403c24e5fba2de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_chocomint.png using Guid(69feb43a32ae1e14f8403c24e5fba2de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f1136f1f40011af29451e3c607277062') in 0.0183006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt
-  artifactKey: Guid(0251f66ebc602a944b35bccd13be2738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Unity - OFL.txt using Guid(0251f66ebc602a944b35bccd13be2738) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '21de7dfe9239e4f2bcf44951130309cd') in 0.011031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soda_coke.png
-  artifactKey: Guid(ae735323e5f62a04eab006812bc0ab41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soda_coke.png using Guid(ae735323e5f62a04eab006812bc0ab41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6d2cca7343d794d3ab4359ad85dd33c0') in 0.0177638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004370 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_choco.png
-  artifactKey: Guid(e36186355a78fc841981535d2c968861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soymilk_choco.png using Guid(e36186355a78fc841981535d2c968861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd86bca8a92fa4e7270bd52e304bf057a') in 0.0180878 seconds
+  artifactKey: Guid(0225d240271e6e94b9a8902fe903fb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/cake_redvelvet.png using Guid(0225d240271e6e94b9a8902fe903fb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed0d098e318e748cdf77dbb4a306b51e') in 0.0203166 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/pastry_pretzel.png
-  artifactKey: Guid(1c7ab2e4a4992c349bc9da24b9046b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/pastry_pretzel.png using Guid(1c7ab2e4a4992c349bc9da24b9046b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7aa14d7d097798800fce6c2174a1d295') in 0.0191649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
-  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aa755ca657a0221fb3692a683306c2df') in 0.0077447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
-  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '00e7f209da82108d9cbe40ae5ce57204') in 0.0101679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
-  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7ebc9a76e840a7f8f6ba34aec20ea9b4') in 0.0636171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
-  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd73933f53f3a8cff0c13c60abfa9cfab') in 0.0074046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
-  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7e83cc27498c40ac999e80792bcca43d') in 0.0083519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity
-  artifactKey: Guid(21a509e1d3cd49978623fa564adb6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/03 - Line Justification.unity using Guid(21a509e1d3cd49978623fa564adb6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e00b69223770983627508fdfe1c49ad2') in 0.0109698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
-  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'cc0f49343d1efb4e39f4a2af6bde9026') in 0.0104702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
-  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '742aec7cdfab1162aa91464063286219') in 0.0086469 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
-  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '33cb47c987f08dfd1375d14464671cb4') in 0.010256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity
-  artifactKey: Guid(8c4969fd8ba94a68b07cf11f3e7a5137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example.unity using Guid(8c4969fd8ba94a68b07cf11f3e7a5137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '72e4c7f87bcbab6aecbbf7b7da95a821') in 0.0069778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
-  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd42eff5ac2c31790cdc8be03712fe5ab') in 0.0062722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
-  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '995f5476e7fcda5921b49aa5374e00f8') in 0.0089029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
-  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fce9d2f19062f8f082902bfec935fb4c') in 0.0089768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity
-  artifactKey: Guid(9abcd5bd764646568a6ea70d00f9264c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/19 - Masking Texture & Soft Mask.unity using Guid(9abcd5bd764646568a6ea70d00f9264c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '16b9c1c16b5c27964b3def2d698170a9') in 0.0073714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
-  artifactKey: Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity using Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '820ab1a311e30e25e2974d2a37a8583b') in 0.0075141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
-  artifactKey: Guid(8f7137eacd7042d5b17ef0efe5e744f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity using Guid(8f7137eacd7042d5b17ef0efe5e744f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '02cbada6a7ac31843831c93001c58c5f') in 0.0083259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
-  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '031f1ff3d7efc1a5277cca8e8b718554') in 0.0080559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
-  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd52f181de1e91f830ee32aa36f570a77') in 0.0091352 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
-  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2ca629eb0e259b94672f9abdc7a32b29') in 0.0077163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
-  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c389d69a866ec00a39d919e87fa5fb60') in 0.0076397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity
-  artifactKey: Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text Examples.unity using Guid(39a1fa96ad2a449b908fca29d4297a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '342349d44bba76d09d9b7c6a7ffd43c6') in 0.0079926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
-  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'af62793f35ac4a0d08e1b81e6d7bb712') in 0.0074017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
-  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a4ea124279bc9ec1eaf9e8bb130e5695') in 0.008996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
-  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ddaf9a347956c11c3fa09bf11e8f86de') in 0.008298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
-  artifactKey: Guid(251716609f634449bfe8ce75c0ed78fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity using Guid(251716609f634449bfe8ce75c0ed78fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c04564c64067f4554263cce4dc977f4a') in 0.0078317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity
-  artifactKey: Guid(e76e6c0f81964cbda3fe0b7d26ed8060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & Sprites.unity using Guid(e76e6c0f81964cbda3fe0b7d26ed8060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '27ac669bf78faaa9467a4d9de7929362') in 0.0082559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
-  artifactKey: Guid(efe0bf4ac872451e91612d1ae593f480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt using Guid(efe0bf4ac872451e91612d1ae593f480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4da64c8add4de070667aa14f67b6c3e5') in 0.0131686 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_potato.png
-  artifactKey: Guid(09e4c3cdfaa909f43a8d63a10228391b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_potato.png using Guid(09e4c3cdfaa909f43a8d63a10228391b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'da6843ff3dfc7dcddc5567833548c5c8') in 0.0183979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons_display.png
+  artifactKey: Guid(35dd87c5b8ce8d749a409a2d28b32b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons_display.png using Guid(35dd87c5b8ce8d749a409a2d28b32b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '18e0b70eae29bfab7c0e16cf9c173a72') in 0.0263638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
-  artifactKey: Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity using Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '75e23ead2b5d735323ca0b88bf2ca952') in 0.007287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
-  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8355cf90641eb9befae9bc5b9cb00411') in 0.0084091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
-  artifactKey: Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity using Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8c12176859e14f0c164170a8bb71568f') in 0.0078774 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soda_sprite.png
-  artifactKey: Guid(4e346568259f53141b95007019176277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/soda_sprite.png using Guid(4e346568259f53141b95007019176277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1aed47857f34ec82b7c9b6d82761e5c3') in 0.021412 seconds
+  path: Assets/FreeGUI/png/BG.png
+  artifactKey: Guid(78453b4efdc6d29478af398adca7217b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeGUI/png/BG.png using Guid(78453b4efdc6d29478af398adca7217b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '41d899fcce3c504a9cdfe6739f0a4053') in 0.0261105 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/jam_strawberry.png
-  artifactKey: Guid(4ca0f9a1dfc7dcf4690b7f51f9e7ae2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/jam_strawberry.png using Guid(4ca0f9a1dfc7dcf4690b7f51f9e7ae2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ea32d220a45fc6e0c418b032e08eae93') in 0.0190761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_onion.png
-  artifactKey: Guid(4ff5bf78b23717a49b83af8bd6fd5108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_onion.png using Guid(4ff5bf78b23717a49b83af8bd6fd5108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1b372636d34e98463aaa686bb5494e91') in 0.0187975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
-  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2b1ba2ea27892b59a7c3de2aba43af6e') in 0.0084016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_milkjug.png
-  artifactKey: Guid(b220a4b340cd6584688852fd7d1083f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_milkjug.png using Guid(b220a4b340cd6584688852fd7d1083f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '030cbcffae9406e5ca2f72ec83c1fffb') in 0.01715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_bellpepper_green.png
-  artifactKey: Guid(1da28f3d5f618424a98c56dd1098e6bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/vegetable_bellpepper_green.png using Guid(1da28f3d5f618424a98c56dd1098e6bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a1d899a70fb67003549450f858cb141b') in 0.0193172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
-  artifactKey: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0ef498a25108c96ece2bd02706907594') in 0.0073744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_4.png
-  artifactKey: Guid(2f1e22e10e858304e92d3fb1dc7afa8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_4.png using Guid(2f1e22e10e858304e92d3fb1dc7afa8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4d3c368c8789ac0feaec39c0db3c9ad5') in 0.0177308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_strawberry.png
-  artifactKey: Guid(fb404dd5b3fd11b44b095ee3881085e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/boba_strawberry.png using Guid(fb404dd5b3fd11b44b095ee3881085e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2c0e02222388d833a66fc70ed9ca2974') in 0.0180049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_cherry.png
-  artifactKey: Guid(3f76fe9c520613248b23d40bc0b7c927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_cherry.png using Guid(3f76fe9c520613248b23d40bc0b7c927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0e8d02ced6ef79acc14d85f0f3f8fe2e') in 0.016804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_mocha.png
-  artifactKey: Guid(c1661182f47a1be498b759ff3a25a4a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/coffee_mocha.png using Guid(c1661182f47a1be498b759ff3a25a4a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '62f20ac214f899dc3699326f34f13179') in 0.0255051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scripts/CustomerDrinkGenerator.cs
-  artifactKey: Guid(23da5f3f003c18f4d8a488d47eff525e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scripts/CustomerDrinkGenerator.cs using Guid(23da5f3f003c18f4d8a488d47eff525e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'f6d9f755a45aa97fa79a6cf6d93ef0e6') in 0.0085002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
-  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8bfec16077750f4123a0e7e4f8d72a12') in 0.0092161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset
-  artifactKey: Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset using Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '85a07957bc39e6bafdfaff349d82d480') in 0.0427046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
-  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bf40264222e5b0a2d1f9201801abd551') in 0.0328095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
-  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3c04e2dc9c32933258e48e3a79d71729') in 0.0213642 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
-  artifactKey: Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset using Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fe531f4b84639151211ca3dbdae687e4') in 0.0144466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
-  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '125f9c2a6e4dbcc7a71a108774b7b896') in 0.0193819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '677f757ba2700471875e8a4ac905c520') in 0.0298426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
-  artifactKey: Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset using Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9d3873b92a8da708112fd313b7ddb474') in 0.0269054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
-  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0302f1f203e65ac6efc2e73fb63ea1ad') in 0.0173122 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
-  artifactKey: Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg using Guid(03d0538de6e24c0f819bfc9ce084dfa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '76238819980886cf485aac3c24e7947d') in 0.0163871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'db393b6ac05c175e77012d91ed806a4f') in 0.0154716 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e18340b14b6d8049aced3e3c1e75dc8c') in 0.0137561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
-  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2695b47175c308409796191d2925e05f') in 0.0154223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
-  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '513d8002106b5e9b1508e19c6b085164') in 0.0190881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '0745546fc6a629f77f3d8a9b906317ce') in 0.0218497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'b8d0032fab37b8d9689f9c99d27ad922') in 0.0241915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
-  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ab90428fca4f897ddabb5238ec2ebc5f') in 0.0136766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
-  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '1b3819dd634a3bffbb66fd90272022be') in 0.0153139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
-  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9f4a104b11ea15ef8a5aa85122e98804') in 0.0079846 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
-  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6194a780e1f74e1ab7831195d00e6986') in 0.015211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat
-  artifactKey: Guid(947a44964e53bf0448ff698b2a2219c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow - 2 Pass.mat using Guid(947a44964e53bf0448ff698b2a2219c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9cf091991be2bbfad2d8fc4dff90a2a1') in 0.0154575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
-  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7adc65b5310361a45d01aa03bc95950a') in 0.0185987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
-  artifactKey: Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'd07dffb93cab422f86b5e3654ef43af7') in 0.0134793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ac22724e07e308a1b58a6763a35b21a1') in 0.0282536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'aa6ab8bb5b17f6c580ba48a554835135') in 0.0204542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
-  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '702498c786a3bdff12a01ca168a93765') in 0.0508143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
-  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e144e0239b43ecce188f114c6d53fe2b') in 0.0279151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'ef85624772ab5148e3e4e871bf67f5bd') in 0.0304179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
-  artifactKey: Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity using Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a8b7eb830018c42e9907a22183e75498') in 0.0151462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_lemon.png
-  artifactKey: Guid(7d14f8292c3310143998ca06274aeb04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_lemon.png using Guid(7d14f8292c3310143998ca06274aeb04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '030228af994ce7196bb02b23279228bb') in 0.0207077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
-  artifactKey: Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity using Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '171370c2b15b53ad9ecbe78256131786') in 0.0088677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Adaptive Performance/Provider/Google Android Provider Loader.asset
-  artifactKey: Guid(41796fbef72b33b4197a31f8a17770e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Adaptive Performance/Provider/Google Android Provider Loader.asset using Guid(41796fbef72b33b4197a31f8a17770e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '25eb3516cb1669a67ce0ac172e8b122a') in 0.0105657 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
-  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a9ee866b1e22e62d3da680569c691a4d') in 0.0088812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
-  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '607c05884f94ed00e137dfbc2938bf5b') in 0.0168308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_3.png
-  artifactKey: Guid(dadc0680bb9858d46ac4c23ee34dfd6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/onigiri_3.png using Guid(dadc0680bb9858d46ac4c23ee34dfd6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8fe6e9a17cf5c308efc666e21163a7de') in 0.0213407 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_strawberry.png
-  artifactKey: Guid(2c4449f59fd69d047a06a8c45dd186ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Free_pixel_food_16x16/Free_pixel_food_16x16/Icons/fruit_strawberry.png using Guid(2c4449f59fd69d047a06a8c45dd186ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'a0cf5eac37efd877c01ae394d2699462') in 0.0199648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
-  artifactKey: Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity using Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '30307bce49970317da021e4cceb88d36') in 0.0096515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
-  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e8d9530ce977507f4548ef76b3dba5db') in 0.0166969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
-  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '063bfdad1050dc72af00514ee60813a2') in 0.008999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
