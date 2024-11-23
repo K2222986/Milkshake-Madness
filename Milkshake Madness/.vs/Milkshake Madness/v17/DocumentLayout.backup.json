@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|c:\\users\\marsgaming155\\downloads\\milkshake-madness\\milkshake madness\\assets\\scripts\\customerdrinkgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\scripts\\customerdrinkgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customerdrinkgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|c:\\users\\marsgaming155\\downloads\\milkshake-madness\\milkshake madness\\assets\\scripts\\gamecontrolerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontrolerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\scripts\\bankaccountscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bankaccountscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\scripts\\floatingmoneyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floatingmoneyscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\assets\\scripts\\bankaccountscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bankaccountscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|c:\\users\\marsgaming155\\downloads\\milkshake-madness\\milkshake madness\\assets\\scripts\\winorloosescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB0EF3A-F93C-36DF-AB3E-C68BB14E39BE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winorloosescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameControlerScript.cs",
-              "DocumentMoniker": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\GameControlerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameControlerScript.cs",
-              "ToolTip": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\GameControlerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameControlerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "WinOrLooseScript.cs",
+              "DocumentMoniker": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\WinOrLooseScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WinOrLooseScript.cs",
+              "ToolTip": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\WinOrLooseScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WinOrLooseScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:52:09.26Z",
+              "WhenOpened": "2024-11-23T21:51:31.329Z",
               "EditorCaption": ""
             },
             {
@@ -63,11 +63,12 @@
               "RelativeToolTip": "Assets\\Scripts\\FloatingMoneyScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T17:52:46.731Z"
+              "WhenOpened": "2024-11-22T17:52:46.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BankAccountScript.cs",
               "DocumentMoniker": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\BankAccountScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BankAccountScript.cs",
@@ -75,7 +76,8 @@
               "RelativeToolTip": "Assets\\Scripts\\BankAccountScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T14:01:12.664Z"
+              "WhenOpened": "2024-11-22T14:01:12.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,7 +87,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomerDrinkGenerator.cs",
               "ToolTip": "C:\\Users\\Marsgaming155\\Downloads\\Milkshake-Madness\\Milkshake Madness\\Assets\\Scripts\\CustomerDrinkGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\CustomerDrinkGenerator.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwGAAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T13:13:35.413Z",
               "EditorCaption": ""

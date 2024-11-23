@@ -1,5 +1,7 @@
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CustomerDrinkGenerator : MonoBehaviour
 {
@@ -15,10 +17,15 @@ public class CustomerDrinkGenerator : MonoBehaviour
     private changeMilkshake ChosenMilkshake;
     private MilkShakeID MilkShakeID;
 
+    // Win or loose text
+    public WinOrLooseScript WinOrLooseScript;
+     
+
     //Money Stuff
     public BankAccountScript BankAcccount;
-
     public FloatingMoneyScript FloatingMoney;
+
+    private float RequiredMoney = 10;
 
     // Timer Stuff
     public TimeofDayScript TimeBar;
@@ -39,19 +46,11 @@ public class CustomerDrinkGenerator : MonoBehaviour
         // Time Stuff
        TimeBar.SetMaxTime(MaxTime);
        CurrentTime = MaxTime;
+        InvokeRepeating("DecreaseTime", 1.0f, 1.0f); // decreases the timer by 1 
 
        GenMilkshake(); 
     }
-    private void Update()
-    {
-        DecreaseTime(0.1f);
-        if (CurrentTime <= 0)
-        {
-            // game is over
-            // check if you made enough money 
-        }
-        
-    }
+   
 
     public void CheckMilkShake() // checks if the milkshake matches the customers milkshake
     {
@@ -65,12 +64,11 @@ public class CustomerDrinkGenerator : MonoBehaviour
             GenMilkshake();
             BankAcccount.UpdateAccount(4); // This adds 4 to the bank account check BankAccountScript
             FloatingMoney.AmountGained(4);
-            
-
         }
         else
         {
             Debug.Log("You got it wrong!");
+            // show some sort of sad emote from the customer and then regenerate the drink
         }
 
         
@@ -83,9 +81,36 @@ public class CustomerDrinkGenerator : MonoBehaviour
         newMilkShake.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
     }
 
-    private void DecreaseTime(float amount)
+    private void DecreaseTime()
     {
-        CurrentTime -= amount;
-        TimeBar.SetCurrentTime(CurrentTime);
+        if (CurrentTime > 0)
+        {
+            CurrentTime -= 1;
+            TimeBar.SetCurrentTime(CurrentTime);
+        }
+        else if (CurrentTime <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    private void GameOver() // checks if the player has gotten enough money
+    {
+        Debug.Log("The game is over!");
+
+        Destroy(newMilkShake);
+
+        if (RequiredMoney <= BankAcccount.GetAccount())
+        {
+            Debug.Log("You have won! :)");
+            WinOrLooseScript.GameWonText();
+            // needs to restart the game
+        }
+        else 
+        {
+            Debug.Log("You have lost! :(");
+            WinOrLooseScript.GameLostText();
+            // needs to restart the game
+        }
     }
 }
