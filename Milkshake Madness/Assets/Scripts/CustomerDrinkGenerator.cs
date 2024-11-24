@@ -13,6 +13,9 @@ public class CustomerDrinkGenerator : MonoBehaviour
     private GameObject ParentObject;
     private GameObject newMilkShake;
 
+    // pause overlay menu
+    public GameObject MenuOverlay;
+
     // identifying milkshake
     private changeMilkshake ChosenMilkshake;
     private MilkShakeID MilkShakeID;
@@ -85,8 +88,12 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     private void DecreaseTime()
     {
-        if (CurrentTime > 0)
+        if (MenuOverlay.activeSelf)
         {
+            // do nothing
+        }
+        else if (CurrentTime > 0)
+        { 
             CurrentTime -= 1;
             TimeBar.SetCurrentTime(CurrentTime);
         }
