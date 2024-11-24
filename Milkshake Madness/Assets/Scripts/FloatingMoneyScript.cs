@@ -14,10 +14,6 @@ public class FloatingMoneyScript : MonoBehaviour
 
     public float lifetime = 3f; 
 
-    void Start()
-    {
-       
-    }
 
     public void AmountGained(float amount) {PlayerBank.text = "+" + amount; CreateFloatingMoney(); } // enter the amount and it will create the object as well
 

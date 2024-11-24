@@ -4,6 +4,7 @@ using UnityEngine;
 public class BankAccountScript : MonoBehaviour
 {
     public TextMeshProUGUI BankAccount;
+    public TextMeshProUGUI RequiredAmount;
 
     private float TotalAmount = 0;
 
@@ -18,6 +19,8 @@ public class BankAccountScript : MonoBehaviour
         TotalAmount += amount;
         BankAccount.text = "Bank Account: $" + TotalAmount;
     }
+
+    public void SetRequiredAmount( float amount) { RequiredAmount.text = "Required amount: $" + amount; }
 
 
 

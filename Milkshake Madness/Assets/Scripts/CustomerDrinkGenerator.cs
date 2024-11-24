@@ -25,7 +25,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
     public BankAccountScript BankAcccount;
     public FloatingMoneyScript FloatingMoney;
 
-    private float RequiredMoney = 10;
+    private float RequiredMoney = 50;
 
     // Timer Stuff
     public TimeofDayScript TimeBar;
@@ -47,6 +47,8 @@ public class CustomerDrinkGenerator : MonoBehaviour
        TimeBar.SetMaxTime(MaxTime);
        CurrentTime = MaxTime;
         InvokeRepeating("DecreaseTime", 1.0f, 1.0f); // decreases the timer by 1 
+
+        BankAcccount.SetRequiredAmount(RequiredMoney);
 
        GenMilkshake(); 
     }
@@ -104,13 +106,20 @@ public class CustomerDrinkGenerator : MonoBehaviour
         {
             Debug.Log("You have won! :)");
             WinOrLooseScript.GameWonText();
+            Invoke("LoadMenu", 3f);
             // needs to restart the game
         }
         else 
         {
             Debug.Log("You have lost! :(");
             WinOrLooseScript.GameLostText();
+            Invoke("LoadMenu", 3f);
             // needs to restart the game
         }
     }
+
+    private void LoadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }    
 }
