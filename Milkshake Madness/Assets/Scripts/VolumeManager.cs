@@ -1,13 +1,20 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEditor.SceneManagement;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
 
 public class Music : MonoBehaviour
 {
     public AudioClip[] soundtrack;
+
     public Slider volumeSlider;
 
     AudioSource audioSource;
+    [SerializeField]private GameObject ParentObject;
+
+    
 
     private float currentVolume;
 
@@ -16,23 +23,24 @@ public class Music : MonoBehaviour
     {
         DontDestroyOnLoad(transform.gameObject);
         setVolumeValue(currentVolume);
+        
     }
 
     // Use this for initialization
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-
+        AttachSoundBar();
         if (!audioSource.playOnAwake)
         {
             audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
             audioSource.Play();
         }
     }
-
+    
     // Update is called once per frame
     void Update()
     {
+ 
         if (!audioSource.isPlaying)
         {
             audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
@@ -63,5 +71,17 @@ public class Music : MonoBehaviour
     {
         //Un-Register Slider Events
         volumeSlider.onValueChanged.RemoveAllListeners();
+    }
+
+   public void AttachSoundBar()
+    {
+        ParentObject = GameObject.Find("Slider");
+        GameObject LoadingScreen = GameObject.Find("LoadingScreen");
+        GameObject MusicMenu = GameObject.Find("MusicMenu");
+        MusicMenu.SetActive(false);
+        LoadingScreen.SetActive(false);
+        volumeSlider = ParentObject.GetComponent<Slider>();
+        audioSource = GetComponent<AudioSource>();
+        Debug.Log("Found");
     }
 }
