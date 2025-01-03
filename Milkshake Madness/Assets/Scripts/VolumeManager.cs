@@ -1,87 +1,70 @@
 using UnityEngine;
+using System;
 using System.Collections;
-using UnityEngine.UI;
-using UnityEditor.SceneManagement;
-using UnityEditor.SearchService;
-using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
-public class Music : MonoBehaviour
+[System.Serializable]
+public class VolumeManager : MonoBehaviour
 {
-    public AudioClip[] soundtrack;
+    public static VolumeManager Instance;
 
-    public Slider volumeSlider;
+    public Sound[] musicSounds, sfxSounds;
+    public AudioSource musicSource, sfxSource;
 
-    AudioSource audioSource;
-    [SerializeField]private GameObject ParentObject;
-
-    
-
-    private float currentVolume;
-
-
-    void Awake()
+    private void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
-        setVolumeValue(currentVolume);
-        
-    }
-
-    // Use this for initialization
-    void Start()
-    {
-        AttachSoundBar();
-        if (!audioSource.playOnAwake)
+        if (Instance == null)
         {
-            audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
-            audioSource.Play();
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
-    }
-    
-    // Update is called once per frame
-    void Update()
-    {
- 
-        if (!audioSource.isPlaying)
+        else
         {
-            audioSource.clip = soundtrack[Random.Range(0, soundtrack.Length)];
-            audioSource.Play();
+            Destroy(gameObject);
         }
     }
 
-    void OnEnable()
+    private void Start()
     {
-        //Register Slider Events
-        volumeSlider.onValueChanged.AddListener(delegate { changeVolume(volumeSlider.value); });
+        PlayMusic("Lofi Cafe");
+    }
+    public void PlayMusic(string name)
+    {
+        Sound s = Array.Find(musicSounds, x => x.name == name);
+
+        if (s == null)
+        {
+            Debug.Log("Sound Not Found");
+        }
+
+        else
+        {
+            musicSource.clip = s.clip;
+            musicSource.Play();
+        }
     }
 
-    //Called when Slider is moved
-    void changeVolume(float sliderValue)
+    public void PlaySFX(string name)
     {
-        audioSource.volume = sliderValue;
-        currentVolume = sliderValue;
+        Sound s = Array.Find(sfxSounds, x => x.name == name);
+
+        if (s == null)
+        {
+            Debug.Log("Sound Not Found");
+        }
+
+        else
+        {
+            sfxSource.PlayOneShot(s.clip);
+        }
     }
 
-    void setVolumeValue(float amount)
+    public void MusicVolume(float volume)
     {
-        // set slider to current amount
-        volumeSlider.value = amount;
+        musicSource.volume = volume;
     }
-
-    void OnDisable()
+    public void SFXVolume(float volume)
     {
-        //Un-Register Slider Events
-        volumeSlider.onValueChanged.RemoveAllListeners();
-    }
-
-   public void AttachSoundBar()
-    {
-        ParentObject = GameObject.Find("Slider");
-        GameObject LoadingScreen = GameObject.Find("LoadingScreen");
-        GameObject MusicMenu = GameObject.Find("MusicMenu");
-        MusicMenu.SetActive(false);
-        LoadingScreen.SetActive(false);
-        volumeSlider = ParentObject.GetComponent<Slider>();
-        audioSource = GetComponent<AudioSource>();
-        Debug.Log("Found");
+        sfxSource.volume = volume;
     }
 }
