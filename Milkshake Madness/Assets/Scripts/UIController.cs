@@ -45,7 +45,7 @@ public class UIController : MonoBehaviour
     }
     private void LoadSFXVolume()
     {
-        _sfxSlider.value = PlayerPrefs.GetFloat("musicVolume");
+        _sfxSlider.value = PlayerPrefs.GetFloat("sfxVolume");
         SFXVolume();
     }
 }

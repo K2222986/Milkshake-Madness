@@ -13,28 +13,12 @@ public class CustomerDrinkGenerator : MonoBehaviour
     private GameObject ParentObject;
     private GameObject newMilkShake;
 
-    // pause overlay menu
-    public GameObject MenuOverlay;
-
     // identifying milkshake
     private changeMilkshake ChosenMilkshake;
     private MilkShakeID MilkShakeID;
 
-    // Win or loose text
-    public WinOrLooseScript WinOrLooseScript;
-     
-
-    //Money Stuff
     public BankAccountScript BankAcccount;
     public FloatingMoneyScript FloatingMoney;
-
-    private float RequiredMoney = 50;
-
-    // Timer Stuff
-    public TimeofDayScript TimeBar;
-    public float MaxTime;
-    public float CurrentTime;
-
 
     // TO DO: 
     // it should compare the values if its the same the custmer is happy if not they are unhappy
@@ -45,14 +29,6 @@ public class CustomerDrinkGenerator : MonoBehaviour
     void Start()
     {
        ParentObject = GameObject.FindGameObjectWithTag("Customer"); // sets the parent object to the customer.
-
-        // Time Stuff
-       TimeBar.SetMaxTime(MaxTime);
-       CurrentTime = MaxTime;
-        InvokeRepeating("DecreaseTime", 1.0f, 1.0f); // decreases the timer by 1 
-
-        BankAcccount.SetRequiredAmount(RequiredMoney);
-
        GenMilkshake(); 
     }
    
@@ -86,47 +62,5 @@ public class CustomerDrinkGenerator : MonoBehaviour
         newMilkShake.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
     }
 
-    private void DecreaseTime()
-    {
-        if (MenuOverlay.activeSelf)
-        {
-            // do nothing
-        }
-        else if (CurrentTime > 0)
-        { 
-            CurrentTime -= 1;
-            TimeBar.SetCurrentTime(CurrentTime);
-        }
-        else if (CurrentTime <= 0)
-        {
-            GameOver();
-        }
-    }
-
-    private void GameOver() // checks if the player has gotten enough money
-    {
-        Debug.Log("The game is over!");
-
-        Destroy(newMilkShake);
-
-        if (RequiredMoney <= BankAcccount.GetAccount())
-        {
-            Debug.Log("You have won! :)");
-            WinOrLooseScript.GameWonText();
-            Invoke("LoadMenu", 3f);
-            // needs to restart the game
-        }
-        else 
-        {
-            Debug.Log("You have lost! :(");
-            WinOrLooseScript.GameLostText();
-            Invoke("LoadMenu", 3f);
-            // needs to restart the game
-        }
-    }
-
-    private void LoadMenu()
-    {
-        SceneManager.LoadScene("Menu");
-    }    
+   
 }
