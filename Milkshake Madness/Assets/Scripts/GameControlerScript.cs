@@ -31,14 +31,14 @@ public class GameControlerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (PlayerPrefs.HasKey("MaxLevel"))
+        if (PlayerPrefs.HasKey("Level")) // changed from MaxLevel
         {
-            MaxLevel = PlayerPrefs.GetInt("MaxLevel");
+            Level = PlayerPrefs.GetInt("Level");// changed from MaxLevel
         }
         else
         {
             Level = 0;
-            PlayerPrefs.SetInt("MaxLevel",Level);
+            PlayerPrefs.SetInt("Level",Level);// changed from MaxLevel
         }
         LevelText.text = "Level " + Level;
         Debug.Log(Level);
@@ -101,7 +101,6 @@ public class GameControlerScript : MonoBehaviour
         Debug.Log("You have lost! :(");
         WinOrLooseScript.GameLostText();
         Invoke("LoadMenu", 3f);
-        // needs to restart the game
     }
 
     private void LevelWon()
