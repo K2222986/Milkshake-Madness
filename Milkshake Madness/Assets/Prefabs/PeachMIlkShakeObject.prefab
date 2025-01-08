@@ -100,4 +100,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d128f020f87ed2942ba89a8e288c775a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MilkShakeNum: 2
+  MilkShakeNum: 3

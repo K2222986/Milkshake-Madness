@@ -24,7 +24,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
     // it should compare the values if its the same the custmer is happy if not they are unhappy
     // this all should loop 
 
-    // milk shake flavour numbers 0: blueBerry, 1: watermelon, 2: peach, 3: bannana
+    // milk shake flavour numbers 1: blueBerry, 2: watermelon, 3: peach, 4: bannana
 
     void Start()
     {
@@ -57,7 +57,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
     void GenMilkshake() // chooses a random milk shake in the list and spawns it 
     {
         Destroy(newMilkShake);
-        random = Random.Range(0, MilkShake.Length); // sets it to a random milkshake
+        random = Random.Range(1, MilkShake.Length); // sets it to a random milkshake
         newMilkShake = Instantiate(MilkShake[random], transform.position, transform.rotation); // creates the milkshake
         newMilkShake.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
     }
