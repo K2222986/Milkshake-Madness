@@ -52,7 +52,7 @@ public class GameControllerScript : MonoBehaviour
         }
         else
         {
-            Level = 0;
+            Level = 1;
             PlayerPrefs.SetInt("Level",Level);// changed from MaxLevel
         }
         DifficultyChange();
