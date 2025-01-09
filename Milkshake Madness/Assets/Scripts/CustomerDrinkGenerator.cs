@@ -9,7 +9,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
     public GameObject[] Topping;
     public GameObject MilkShakeStation;
     private int random;
-    private bool NoTopping = true; // this needs to be a variable thats turned on or off in the Main Menu
+    private bool NoTopping = false; // this needs to be a variable thats turned on or off in the Main Menu
     // parent object stuff
     private GameObject ParentObject;
     private GameObject newMilkShake;
