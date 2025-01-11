@@ -10,9 +10,13 @@ public class GameControllerScript : MonoBehaviour
     public GameObject MenuOverlay;
     public GameObject LevelClose;
     public GameObject LevelGrid;
+    public GameObject Counter;
+    public GameObject Station;
+    public GameObject EndScreen;
 
     // Win or loose text
     public WinOrLooseScript WinOrLooseScript;
+    public TextMeshProUGUI ScoreText;
 
     // Level text
     public GameObject LevelWindow;
@@ -113,7 +117,7 @@ public class GameControllerScript : MonoBehaviour
     {
         Debug.Log("You have lost! :(");
         WinOrLooseScript.GameLostText();
-        Invoke("LoadMenu", 3f);
+        DisplayStats();
     }
 
     private void LevelWon()
@@ -121,7 +125,15 @@ public class GameControllerScript : MonoBehaviour
         Debug.Log("You have won! :)");
         WinOrLooseScript.GameWonText();
         PlayerPrefs.SetInt("Level", Level + 1);
-        Invoke("LoadMenu", 3f);
+        DisplayStats();
+    }
+
+    private void DisplayStats()
+    {
+        ScoreText.text = "Money made: " + BankAcccount.GetAccount().ToString();
+        Counter.SetActive(false);
+        Station.SetActive(false);
+        EndScreen.SetActive(true);
     }
 
    void DifficultyChange()
