@@ -24,6 +24,9 @@ public class CustomerDrinkGenerator : MonoBehaviour
     public BankAccountScript BankAcccount;
     public FloatingMoneyScript FloatingMoney;
 
+    public GameObject MilkshakeActivething;
+    
+
     // TO DO: 
     // it should compare the values if its the same the custmer is happy if not they are unhappy
     // this all should loop 
@@ -44,7 +47,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
         ChosenMilkshake = MilkShakeStation.GetComponent<changeMilkshake>(); // milk shake you choose
         ChosenTopping = MilkShakeStation.GetComponent<ChangeTopping>(); // milk shake you choose
 
-        if ( (MilkShakeID.MilkShakeNum == ChosenMilkshake.GetMilkShakeID()) && (ToppingsID.ToppingNum == ChosenTopping.GetToppingsID()) )
+        if ((MilkShakeID.MilkShakeNum == ChosenMilkshake.GetMilkShakeID()) && (ToppingsID.ToppingNum == ChosenTopping.GetToppingsID()) && MilkshakeActivething.activeSelf )
         {
             Debug.Log("You got it right!");
 

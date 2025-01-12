@@ -64,20 +64,20 @@
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditorTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\AngleRangeController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\EditorSpriteGUIUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeControllerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SceneDragAndDrop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditorGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeAssetPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeObjectPlacementEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeHandleUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditorAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SceneDragAndDrop.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\AngleRangeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\ObjectMenuCreation\AssetCreation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditorUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\SpriteShapeEditorGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape\Editor\AngleRangeGUI.cs" />
   </ItemGroup>
@@ -578,6 +578,14 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -602,12 +610,20 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

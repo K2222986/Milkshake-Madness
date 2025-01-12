@@ -5,6 +5,7 @@ using UnityEngine;
 public class changeMilkshake : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
+    public GameObject Milkshake;
     public Sprite banana;
     public Sprite peach;
     public Sprite watermelon;
@@ -38,6 +39,7 @@ public class changeMilkshake : MonoBehaviour
     {
         spriteRenderer.sprite = empty;
         milkshakeID = 0;
+        Milkshake.SetActive(false);
     }
 
     public int GetMilkShakeID() {return milkshakeID;}

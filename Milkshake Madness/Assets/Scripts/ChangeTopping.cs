@@ -1,4 +1,8 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.AdaptivePerformance.VisualScripting;
+using UnityEngine.SceneManagement;
+
 
 public class ChangeTopping : MonoBehaviour
 {
@@ -11,18 +15,21 @@ public class ChangeTopping : MonoBehaviour
     private changeMilkshake Milkshake;
     public GameObject MilkShakeStation;
 
+  
+
     private void Start()
     {
         Milkshake = MilkShakeStation.GetComponent<changeMilkshake>();
     }
     public void NoTopping()
     {
+        
         spriteRenderer.sprite = null;
         toppingsID = 0;
     }
     public void CaramelSprite()
     {
-        if (Milkshake.GetMilkShakeID() != 0)
+        if (Milkshake.GetMilkShakeID() != 0 && Milkshake.gameObject.activeSelf)
         {
             spriteRenderer.sprite = caramel;
             toppingsID = 1;
@@ -30,7 +37,7 @@ public class ChangeTopping : MonoBehaviour
     }
     public void ChocolateSprite()
     {
-        if (Milkshake.GetMilkShakeID() != 0)
+        if (Milkshake.GetMilkShakeID() != 0 && Milkshake.gameObject.activeSelf)
         {
             spriteRenderer.sprite = chocolate;
             toppingsID = 2;
@@ -38,7 +45,7 @@ public class ChangeTopping : MonoBehaviour
     }
     public void ChoppedNutsSprite()
     {
-        if (Milkshake.GetMilkShakeID() != 0)
+        if (Milkshake.GetMilkShakeID() != 0 && Milkshake.gameObject.activeSelf)
         {
             spriteRenderer.sprite = choppedNuts;
             toppingsID = 3;
@@ -46,7 +53,7 @@ public class ChangeTopping : MonoBehaviour
     }
     public void SprinklesSprite()
     {
-        if (Milkshake.GetMilkShakeID() != 0)
+        if (Milkshake.GetMilkShakeID() != 0 && Milkshake.gameObject.activeSelf)
         {
             spriteRenderer.sprite = sprinkles;
             toppingsID = 4;

@@ -61,69 +61,69 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Subsystem\AdaptivePerformanceSubsystemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Indexer\AdaptivePerformanceScaler.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveMSAA.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\RunningAverage.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnPerformanceModeUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveSorting.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveShadowmapResolution.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveLOD.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IAdaptivePerformance.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveShadowCascade.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\AdaptivePerformanceEventHooks.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AdaptivePerformanceManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetPerformanceModeUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\IAdaptivePerformanceSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnBottleneckUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Profiler\AdaptivePerformanceProfilerStats.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveBatching.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveResolution.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\GpuTime.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\AdaptivePerformanceAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AdaptiverPerformanceLog.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveViewDistance.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnLevelUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveDecals.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceLoaderHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnThermalMetricUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetIndexerUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceGeneralSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnLevelUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnBoostUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetBoostUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AdaptivePerformanceInit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\DevicePerformanceControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IThermalStatus.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\FrameTimingUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AutoPerformanceModeController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\TemperatureTrend.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\FPSUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Indexer\AdaptivePerformanceRenderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceConfigurationData.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceManagerSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\SetBoostUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IDevicePerformanceControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AdaptivePerformanceBottleneckDetection.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\ClusterInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\SetPerformanceLevelsUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Subsystem\AdaptivePerformanceSubsystem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveTransparency.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptivePhysics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetPerformanceLevelsUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AutoPerformanceLevelController.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceLoader.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IPerformanceModeStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Indexer\AdaptivePerformanceIndexer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveShadowDistance.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetThermalMetricUnit.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveLayerCulling.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveShadowQuality.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveLut.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveFramerate.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\CpuTime.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IDevelopmentSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IPerformanceStatus.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnPerformanceLevelsUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Subsystem\AdaptivePerformanceSubsystemDescriptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Indexer\AdaptivePerformanceScaler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveSorting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveLOD.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\AdaptivePerformanceEventHooks.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetPerformanceModeUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\IAdaptivePerformanceSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnBottleneckUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Profiler\AdaptivePerformanceProfilerStats.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceLoaderHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\OnThermalMetricUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetIndexerUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Management\AdaptivePerformanceGeneralSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IThermalStatus.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\FrameTimingUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AutoPerformanceModeController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\TemperatureTrend.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\FPSUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\IDevicePerformanceControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AdaptivePerformanceBottleneckDetection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Subsystem\AdaptivePerformanceSubsystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveTransparency.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptivePhysics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\VisualScript\GetPerformanceLevelsUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Core\AutoPerformanceLevelController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveShadowDistance.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveLayerCulling.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Scalers\AdaptiveShadowQuality.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.adaptiveperformance\Runtime\Unity.AdaptivePerformance.asmdef" />
@@ -601,6 +601,14 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -625,12 +633,20 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

@@ -62,32 +62,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceSupportedBuildTargetAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceGeneralBuildProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\Metadata\AdaptivePerformanceKnownPackages.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\EnterNamePopup.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceGeneralSettingsPerBuildTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\TypeLoaderExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceLoaderInfoManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceAnalyticsEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\Hooks\BuildHook.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceEditorAnalyticsEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceAnalyticsConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceConfigurationProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\BuildHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceUsageAnalyticsArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceManagerEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\Metadata\AdaptivePerformancePackageMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\EditorWorkQueue.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceBuildProcessorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\ProviderSettingsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceLoaderOrderUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\Metadata\AdaptivePerformancePackage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\EditorUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceLoaderInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceSettingsManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformancePackageInitialization.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceSupportedBuildTargetAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\EnterNamePopup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceLoaderInfoManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceEditorAnalyticsEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceAnalyticsConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Analytics\AdaptivePerformanceUsageAnalyticsArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\EditorWorkQueue.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceBuildProcessorHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\Metadata\AdaptivePerformancePackage.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\EditorUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Management\AdaptivePerformanceLoaderInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.adaptiveperformance\Editor\Unity.AdaptivePerformance.Editor.asmdef" />
@@ -585,6 +585,14 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -609,12 +617,20 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

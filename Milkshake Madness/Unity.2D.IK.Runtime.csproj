@@ -62,21 +62,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Culling\CullingManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\IKUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solvers\CCD2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\LimbSolver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solver2DMenuAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\FabrikSolver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solvers\Limb.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\IconUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Culling\SpriteSkinVisibilityCullingStrategy.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\IKManager2DEditorData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solvers\FABRIK2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Culling\BaseCullingStrategy.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\IKManager2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\IKChain2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Culling\CullingManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solvers\CCD2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\FabrikSolver2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Culling\SpriteSkinVisibilityCullingStrategy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solvers\FABRIK2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Solver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\CCDSolver2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Runtime\Culling\AlwaysUpdateCullingStrategy.cs" />
   </ItemGroup>
@@ -556,6 +556,14 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -580,12 +588,20 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

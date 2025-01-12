@@ -62,13 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\IKGizmos.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Inspectors\LimbSolver2DEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\IKEditorManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Inspectors\IKManager2DEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Inspectors\FabrikSolver2DEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Inspectors\CCDSolver2DEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Inspectors\Solver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Inspectors\LimbSolver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.animation\IK\Editor\Unity.2D.IK.Editor.asmdef" />
@@ -566,6 +566,14 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -590,12 +598,20 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

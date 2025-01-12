@@ -62,20 +62,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\AndroidExactSchedulingOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\DrawableResourceData.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\AndroidNotificationPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\iOSNotificationPostProcessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationStyles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSettingsCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\iOSAuthorizationOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSetting.cs" />
+    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\AssembyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\DrawableResourceData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSettingsCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationIconType.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\TextureAssetUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\iOSPresentationOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSettingsManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\NotificationSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.mobile.notifications\Editor\AssembyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.mobile.notifications\Editor\Unity.Mobile.Notifications.Editor.asmdef" />
@@ -573,6 +573,14 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -597,12 +605,20 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
