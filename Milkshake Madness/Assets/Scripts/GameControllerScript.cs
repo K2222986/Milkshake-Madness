@@ -35,6 +35,7 @@ public class GameControllerScript : MonoBehaviour
     public int Level;
     public int MaxLevel;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
@@ -64,6 +65,7 @@ public class GameControllerScript : MonoBehaviour
         TimeBar.SetMaxTime(MaxTime);
         CurrentTime = MaxTime;
         InvokeRepeating("DecreaseTime", 1.0f, 1.0f); // decreases the timer by 1
+
 
     }
 
