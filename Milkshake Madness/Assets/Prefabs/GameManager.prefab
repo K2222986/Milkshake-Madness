@@ -310,5 +310,7 @@ MonoBehaviour:
   sfxSounds:
   - name: Button Press
     clip: {fileID: 8300000, guid: 19f89c6e740e7447f9e12a8310d3e973, type: 3}
+  - name: Milkshake finished
+    clip: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
   musicSource: {fileID: 5449079337842843547}
   sfxSource: {fileID: 1408782082648580264}

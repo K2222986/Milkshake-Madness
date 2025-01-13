@@ -25,6 +25,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
     public FloatingMoneyScript FloatingMoney;
 
     public GameObject MilkshakeActivething;
+    public GameControllerScript GameController;
     
 
     // TO DO: 
@@ -54,6 +55,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
             GenMilkshake();
             BankAcccount.UpdateAccount(12); // This adds 4 to the bank account check BankAccountScript
             FloatingMoney.AmountGained(12);
+            GameController.CheckWinCondition();
         }
         else
         {

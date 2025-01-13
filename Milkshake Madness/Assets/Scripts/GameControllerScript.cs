@@ -59,11 +59,6 @@ public class GameControllerScript : MonoBehaviour
             Level = 1;
             PlayerPrefs.SetInt("Level",Level);// changed from MaxLevel
         }
-        DifficultyChange();
-       
-
-        //Money stuff
-        BankAcccount.SetRequiredAmount(RequiredMoney);
 
         // Time Stuff
         TimeBar.SetMaxTime(MaxTime);
@@ -121,7 +116,11 @@ public class GameControllerScript : MonoBehaviour
     {
         Debug.Log("You have won! :)");
         WinOrLooseScript.GameWonText();
-        PlayerPrefs.SetInt("Level", Level + 1);
+        if (PlayerPrefs.GetInt("Level") < Level + 1)
+        {
+            PlayerPrefs.SetInt("Level", Level + 1);
+        }
+        
         DisplayStats();
     }
 
@@ -141,15 +140,12 @@ public class GameControllerScript : MonoBehaviour
             RequiredMoney = 100;
         }
     }
-
-    private void LoadMenu()
+    public void CheckWinCondition()
     {
-        SceneManager.LoadScene("Menu");
-    }
-
-    private void LevelMenu()
-    {
-
+        if (RequiredMoney <= BankAcccount.GetAccount())
+        {
+            LevelWon();
+        }
     }
     public void SetLevel(int level)
     {
@@ -160,6 +156,8 @@ public class GameControllerScript : MonoBehaviour
             LevelText.gameObject.SetActive(true);
             LevelClose.SetActive(true);
             LevelGrid.SetActive(false);
+            DifficultyChange();
+            BankAcccount.SetRequiredAmount(RequiredMoney);
         }
     }
 
