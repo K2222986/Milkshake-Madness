@@ -59,7 +59,7 @@ public class StorePurchase : MonoBehaviour
         file.Close();
         Debug.Log("Game Saved");
     }
-    public void LoadPurchases()
+    private void LoadPurchases()
     {
         if(File.Exists(Application.persistentDataPath + "/save.dat"))
         {
@@ -73,8 +73,13 @@ public class StorePurchase : MonoBehaviour
             file.Close();
             Debug.Log("Game Loaded");
         }
+        
     }
+
+
 }
+
+
 
 [Serializable]
 

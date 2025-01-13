@@ -7850,6 +7850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764219293}
   - component: {fileID: 1764219292}
+  - component: {fileID: 1764219294}
   m_Layer: 0
   m_Name: Customer
   m_TagString: Customer
@@ -7929,6 +7930,19 @@ Transform:
   - {fileID: 1257197173}
   m_Father: {fileID: 335154742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1764219294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764219291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c1400b2d42dd04a8d1c710f45c7198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DrinkGeneratorScript: {fileID: 2006416690}
 --- !u!1 &1764390383
 GameObject:
   m_ObjectHideFlags: 0
@@ -9308,6 +9322,7 @@ MonoBehaviour:
   FloatingMoney: {fileID: 657089016}
   MilkshakeActivething: {fileID: 1613175254}
   GameController: {fileID: 1379834201}
+  LoadScript: {fileID: 1764219294}
 --- !u!1 &2028936809
 GameObject:
   m_ObjectHideFlags: 0

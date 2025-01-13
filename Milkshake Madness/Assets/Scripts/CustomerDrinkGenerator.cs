@@ -2,11 +2,14 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class CustomerDrinkGenerator : MonoBehaviour
 {
     public GameObject[] MilkShake; // this is where the diffrent sprites are stored for the milkshakes
-    public GameObject[] Topping;
+    public List<GameObject> Topping;
     public GameObject MilkShakeStation;
     private int random;
     private bool NoTopping = false; // this needs to be a variable thats turned on or off in the Main Menu
@@ -26,6 +29,9 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     public GameObject MilkshakeActivething;
     public GameControllerScript GameController;
+
+    public RetrieveDataScript LoadScript;
+    private List<bool> BoughtToppings;
     
 
     // TO DO: 
@@ -36,8 +42,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     void Start()
     {
-       ParentObject = GameObject.FindGameObjectWithTag("Customer"); // sets the parent object to the customer.
-       GenMilkshake(); 
+        ParentObject = GameObject.FindGameObjectWithTag("Customer"); // sets the parent object to the customer.
     }
    
 
@@ -75,7 +80,7 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
         if (!NoTopping)
         {
-            random = Random.Range(1, Topping.Length); // sets it to a random topping
+            random = Random.Range(0, Topping.Count - 1); // sets it to a random topping
             newTopping = Instantiate(Topping[random], transform.position + new Vector3(0.8f, 0.1f, -1), transform.rotation); // creates the milkshake
             newTopping.transform.SetParent(ParentObject.transform); // sets the object as child of the customer (this is so it disapears when the customer does) 
         }
@@ -86,5 +91,33 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     }
 
-   
+    public void CheckStore()
+    {
+        BoughtToppings = LoadScript.CheckToppings();
+        if (BoughtToppings != null)
+        {
+            if (BoughtToppings[0] == false)
+            {
+                for (int i = BoughtToppings.Count - 1; i > 0; i--)
+                {
+                    if (BoughtToppings[i] == false)
+                    {
+                        Topping.RemoveAt(i);
+                
+                    }
+                }
+
+            }
+        }
+        else
+        {
+            for (int i = Topping.Count -1; i > 0; i--)
+                {
+                    Topping.RemoveAt(i);
+                }
+        }
+        
+        GenMilkshake();
+    }
+
 }
