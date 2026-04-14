@@ -8,6 +8,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class CustomerDrinkGenerator : MonoBehaviour
 {
+    public static CustomerDrinkGenerator Instance;
+
     public GameObject[] MilkShake; // this is where the diffrent sprites are stored for the milkshakes
     public List<GameObject> Topping;
     public GameObject MilkShakeStation;
@@ -32,13 +34,25 @@ public class CustomerDrinkGenerator : MonoBehaviour
 
     public RetrieveDataScript LoadScript;
     private List<bool> BoughtToppings;
-    
+
 
     // TO DO: 
     // it should compare the values if its the same the custmer is happy if not they are unhappy
     // this all should loop 
 
     // milk shake flavour numbers 1: blueBerry, 2: watermelon, 3: peach, 4: bannana
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {

@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ChangeTopping : MonoBehaviour
 {
+    public static ChangeTopping Instance;
+
     public SpriteRenderer spriteRenderer;
     public Sprite caramel;
     public Sprite chocolate;
@@ -15,7 +17,17 @@ public class ChangeTopping : MonoBehaviour
     private changeMilkshake Milkshake;
     public GameObject MilkShakeStation;
 
-  
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {

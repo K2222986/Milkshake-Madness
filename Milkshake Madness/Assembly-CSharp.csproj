@@ -89,6 +89,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\StorePurchase.cs" />
     <Compile Include="Assets\Scripts\MilkShakeID.cs" />
+    <Compile Include="Assets\Scripts\Swipe.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\ResetScript.cs" />
     <Compile Include="Assets\Scripts\randomFruit.cs" />

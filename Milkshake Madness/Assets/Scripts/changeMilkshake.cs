@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class changeMilkshake : MonoBehaviour
 {
+    public static changeMilkshake Instance;
+
     public SpriteRenderer spriteRenderer;
     public GameObject Milkshake;
     public Sprite banana;
@@ -14,6 +16,18 @@ public class changeMilkshake : MonoBehaviour
 
     private int milkshakeID;
     // milk shake flavour numbers 1: blueBerry, 2: watermelon, 3: peach, 4: bannana
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public void BananaSprite()
     {

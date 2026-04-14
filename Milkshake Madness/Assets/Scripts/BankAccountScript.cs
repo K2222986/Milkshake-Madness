@@ -17,10 +17,10 @@ public class BankAccountScript : MonoBehaviour
     public void UpdateAccount(float amount) 
     { 
         TotalAmount += amount;
-        BankAccount.text = "Bank Account: $" + TotalAmount;
+        BankAccount.text = "Bank: $" + TotalAmount;
     }
 
-    public void SetRequiredAmount( float amount) { RequiredAmount.text = "Required amount: $" + amount; }
+    public void SetRequiredAmount( float amount) { RequiredAmount.text = "Goal: $" + amount; }
 
 
 
