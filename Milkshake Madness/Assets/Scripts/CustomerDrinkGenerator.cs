@@ -57,9 +57,17 @@ public class CustomerDrinkGenerator : MonoBehaviour
         {
             Debug.Log("You got it right!");
 
+            if (random == 0)
+            {
+                BankAcccount.UpdateAccount(12); // This adds 4 to the bank account check BankAccountScript
+                FloatingMoney.AmountGained(12);
+            }
+            else
+            {
+                BankAcccount.UpdateAccount(24);
+                FloatingMoney.AmountGained(24);
+            }
             GenMilkshake();
-            BankAcccount.UpdateAccount(12); // This adds 4 to the bank account check BankAccountScript
-            FloatingMoney.AmountGained(12);
             GameController.CheckWinCondition();
         }
         else

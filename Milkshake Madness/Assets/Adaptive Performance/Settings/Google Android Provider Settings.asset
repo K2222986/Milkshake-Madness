@@ -166,6 +166,9 @@ MonoBehaviour:
       m_MaxLevel: 40
       m_MinBound: 0.01
       m_MaxBound: 1
+  m_AddedScalerViaScan: []
+  m_ActiveScalerProfile:
+    rid: -2
   m_scalerProfileList:
   - m_AdaptiveFramerate:
       m_Name: Adaptive Framerate
@@ -311,7 +314,14 @@ MonoBehaviour:
       m_MaxLevel: 40
       m_MinBound: 0.01
       m_MaxBound: 1
+    m_AddedScalers: []
     m_Name: Default Scaler Profile
   m_DefaultScalerProfilerIndex: 0
   k_AssetVersion: 2
   m_GoogleProviderLogging: 0
+  m_FrameStatsDialogDisplayed: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
